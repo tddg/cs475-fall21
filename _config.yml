@@ -9,8 +9,8 @@ title:               'CS 475'
 tagline:             'Concurrent & Distributed Systems (Fall 2021)'
 description:         'CS 475: Concurrent & Distributed Systems<br>George Mason University'
 url:                 ''
-#baseurl:             'https://tddg.github.io/cs475-fall21'
-baseurl:             ''
+baseurl:             'https://tddg.github.io/cs475-fall21'
+#baseurl:             ''
 
 # yue's hack
 plugins:

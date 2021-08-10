@@ -16,7 +16,7 @@ You'll need to complete these steps:
 
 1. Login to your Mason GitLab account.
 2. Find the `cs475-fall21` group on GitLab.
-3. Fork the `cs465-fall21/labs` repo to a private repo under your own GitLab user.
+3. Fork the `cs475-fall21/labs` repo to a private repo under your own GitLab user.
 4. Set your fork of the repo to `Private` visibility.
 5. Create an SSH public/private key pair on Zeus.
 6. Configure Git on Zeus.

@@ -1,0 +1,33 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+#relative_permalinks: true
+
+# Setup
+title:               'CS 475'
+tagline:             'Concurrent & Distributed Systems (Fall 2021)'
+description:         'CS 475: Concurrent & Distributed Systems<br>George Mason University'
+url:                 ''
+#baseurl:             'https://tddg.github.io/cs475-fall21'
+baseurl:             ''
+
+# yue's hack
+plugins:
+  - jekyll-paginate
+#paginate_path: "page:num"
+# end of yue's hack
+
+paginate:            5
+
+# About/contact
+author:
+  name:              Yue Cheng
+  url:               https://cs.gmu.edu/~yuecheng
+  email:             yuecheng@gmu.edu
+
+# Custom vars
+version:             1.0.0
+
+
+gem:				 liquid

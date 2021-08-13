@@ -11,7 +11,7 @@ The course syllabus is posted [here](https://cs.gmu.edu/media/syllabi/Fall2021/C
 ## Instructor's office hours
 
 * Where: TBD
-* When: Tuesday, 10:30 am - 12:30 pm
+* When: TBD
 
 
 

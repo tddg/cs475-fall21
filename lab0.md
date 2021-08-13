@@ -66,7 +66,7 @@ Our grading uses the tests in `q1_test.go` and `q2_test.go` provided to
 you. To test the correctness of your code, run the following: 
 
 ```bash
-% cd intro-go
+% cd labs/lab0
 % go test
 ```
 
@@ -75,7 +75,7 @@ If all tests pass, you should see the following output:
 ```bash
 % go test
 PASS
-ok	/path/to/intro-go  0.009s
+ok	/path/to/lab0  0.009s
 ```
 
 To run a single test (e.g., `Test1`), run the following:
@@ -112,19 +112,19 @@ Please post questions on Piazza.
 
 You will submit your assignment using GitLab. The submission will
 consist of whatever is contianed in your **private**
-`intro-go` repository.
+`labs` repository.
 
-1. You will need to share your **private** repository with our GTA Michael (his GitLab ID
-is the same as his mason email ID: `mcrawsha`).
+1. You will need to share your **private** repository with our GTA (his GitLab ID
+is the same as his mason email ID: `tbd`).
 
 2. Commit all your changes by typing:
 
 	```
-	% git commit -am 'the final awesome solution of proj0b: [Your Name] and [Your GMU ID]'
+	% git commit -am 'the final awesome solution of lab0: [Your Name] and [Your GMU ID]'
 	```
 
 And that's all. We will check the timestamp (your last commit
-timestamp) for late submission. So make sure to submit before the
+timestamp) for late submission. Make sure to submit before the
 deadline.
 
 

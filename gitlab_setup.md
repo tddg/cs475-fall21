@@ -200,35 +200,25 @@ labs. Go has a stylized way to run, compile, and test code - this
 document gives the full details of how it works.
 
 
-## Step 5: Check in Your Initial Source Code
 
-Now, check in the source code which you have already copied into the git directory:
+## Check in Your Development
+
+Check in your new code:
 
 ```bash
-% git add *
-% git commit -m "init commit" 
+% git add <your_modified_src>
+% git commit -m "your_message" 
 % git push  
 ```
 
-If you are checking in for the first time on an empty repo (which is your case here),
-you should run:
 
-```bash
-% git push -u origin master
-```
 
-Instead of
+## Share the Repo with GTA
 
-```bash
-% git push
-```
-
-## Step 4: Share the Repo with Your Teammate
-
-If you are working in a group, it is a good idea for all group
-members to share access to a single GitLab repo. You can enable
-sharing through the GitLab web interface. Hover over to **Settings**
-on the left sidebar, and click **Members**. Enter your team member's
-Patriot ID and choose a role (Developer or Maintainer) for him/her.
+You will need to share access to your GitLab repo with GTA so that we
+can pull from your repo and grade. You can enable sharing through the
+GitLab web interface. Hover over to **Settings** on the left sidebar,
+and click **Members**. Enter GTA's Patriot ID and choose a role
+(Maintainer).
 
 

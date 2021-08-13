@@ -48,7 +48,10 @@ There are no official textbooks. Required readings are (most
 frequently) in the form of research papers and/or selected textbook
 chapters. There are several books that *might* be useful, however:
 
-* [Distributed Systems 3rd edition (2017)](https://www.distributed-systems.net/index.php/books/ds3/), by Maarten van Steen and Andrew S. Tenenbaum (suggested optional readings will most frequently be dranw from this book). 
+* [Distributed Systems 3rd edition
+(2017)](https://www.distributed-systems.net/index.php/books/ds3/),
+by Maarten van Steen and Andrew S. Tenenbaum (suggested optional
+readings will most frequently be drawn from this book). 
 
 * [Operating Systems: Three Easy Pieces (OSTEP)](http://pages.cs.wisc.edu/~remzi/OSTEP/), by Remzi H. Arpaci-Dusseau and Andrea C. Arpaci-Dusseau, Aug, 2018 (v 1.00).
 

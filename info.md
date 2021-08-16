@@ -17,8 +17,8 @@ The course syllabus is posted [here](https://cs.gmu.edu/media/syllabi/Fall2021/C
 
 ## GTA & office hours
 
-* TBD
-* Email: [tbd@gmu.edu](mailto:tbd@gmu.edu)
+* Rui Yang
+* Email: [ryang22@gmu.edu](mailto:ryang22@gmu.edu)
 * Where: TBD
 * When: TBD
 

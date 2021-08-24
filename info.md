@@ -10,8 +10,8 @@ The course syllabus is posted [here](https://cs.gmu.edu/media/syllabi/Fall2021/C
 
 ## Instructor's office hours
 
-* Where: TBD
-* When: TBD
+* Where: 5324 Engineering
+* When: T 10:30 am - 12 pm
 
 
 
@@ -20,7 +20,7 @@ The course syllabus is posted [here](https://cs.gmu.edu/media/syllabi/Fall2021/C
 * Rui Yang
 * Email: [ryang22@gmu.edu](mailto:ryang22@gmu.edu)
 * Where: TBD
-* When: TBD
+* When: MW 9 am - 11 am
 
 
 

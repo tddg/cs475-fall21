@@ -175,7 +175,7 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Sep 13 -->
   <td id="2021-09-14" class="date"><b>Tue 09/14</b></td>
   <td class="fundamentals">
-		Time and clocks I
+		<b>Lec 6:</b> Time and clocks I
   </td>
   <td class="reading">
 		Time, clocks paper, <br/>
@@ -187,7 +187,7 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Sep 13 -->
   <td id="2021-09-16" class="date"><b>Thu 09/16</b></td>
   <td class="fundamentals">
-		Time and clocks II
+		<b>Lec 7:</b> Time and clocks II
   </td>
   <td class="reading">
 		Time, clocks paper, <br/>

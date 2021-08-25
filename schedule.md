@@ -141,6 +141,7 @@ The course schedule is tentative and subject to change\*.
 		Networking, RPC
   </td>
   <td class="reading"></td>
+		van Steen &sect;4.1-4.2; $sect;8.3 (optional)
   <td class="hwdue">
 		Lab 0 due
   </td>
@@ -152,7 +153,7 @@ The course schedule is tentative and subject to change\*.
 		MapReduce
   </td>
   <td class="reading">
-		<a href="./public/papers/mapreduce_osdi04.pdf">MapReduce</a> paper
+		<a href="./public/papers/mapreduce_osdi04.pdf">MapReduce</a> paper (required)
   </td>
   <td class="hw">
 		Lab 1 out
@@ -164,7 +165,7 @@ The course schedule is tentative and subject to change\*.
 		Google File System
   </td>
   <td class="reading">
-		<a href="./public/papers/gfs_sosp03.pdf">GFS</a> paper
+		<a href="./public/papers/gfs_sosp03.pdf">GFS</a> paper (required)
   </td>
   <td class="nodue">
   </td>

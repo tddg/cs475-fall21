@@ -120,7 +120,8 @@ only if your code successfully passes the test.
 
 You must turn in your lab assignment using
 [Autolab](https://autolab-gmu-systems.org).  Read this
-[document](xxx) for instructions on how to sign-up for Autolab.  If
+[document](https://docs.google.com/document/d/1bwWx8p4_vSaNwVPzImRVKOXuj58qVMWWYu89Ejigs4A/edit?usp=sharing) 
+for instructions on how to sign-up for Autolab.  If
 you did not receive a confirmation email from Autolab to set a
 password, enter your @gmu.edu (**NOT** masonlive) email, and click
 "Forgot your password" to get a new password. 

@@ -103,7 +103,7 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Aug 23 -->
   <td id="2021-8-24" class="date"><b>Tue 08/24</b></td>
   <td class="lecture">
-		Introduction [<a href="./public/lecs/lec1-intro.pdf">slides</a>]
+		<b>Lec 1:</b> Introduction [<a href="./public/lecs/lec1-intro.pdf">slides</a>]
 		[<a href="./public/lecs/lec1-intro+notes.pdf">slides+notes</a>]
   </td>
   <td class="reading"></td>
@@ -125,7 +125,7 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Aug 30 -->
   <td id="2021-8-31" class="date"><b>Tue 08/31</b></td>
   <td class="fundamentals">
-		Concurrency overview
+		<b>Lec 2:</b> Concurrency overview
   </td>
   <td class="reading">
 		OSTEP: Threads, Concurrency intro, Locks

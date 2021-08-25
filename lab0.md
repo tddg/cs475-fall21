@@ -107,15 +107,51 @@ Please post questions on Piazza.
 <tr><td>Q2_4</td><td>3</td></tr>
 </table></p>
 
+Your code will be tested on Autolab. No marks will be awarded 
+if your code does not pass the test. You will receive full marks 
+only if your code successfully passes the test.
+
+
 
 ## What (and how) to hand in
+
+
+### Submitting on Autolab
+
+You must turn in your lab assignment using
+[Autolab](https://autolab-gmu-systems.org).  Read this
+[document](xxx) for instructions on how to sign-up for Autolab.  If
+you did not receive a confirmation email from Autolab to set a
+password, enter your @gmu.edu (**NOT** masonlive) email, and click
+"Forgot your password" to get a new password. 
+
+Create a **tar** file of only the two Go source files, q1.go and
+q2.go (please, .tar, not .tgz, nor .7z/.zip) and name your tar file
+as `lab0-handin.tar`. When you upload your assignment, Autolab will
+automatically untar it and test it. You should verify that the result
+that Autolab generates is what you expect. Test your code on Zeus
+before submitting it to Autolab.  Your code is tested in a cloud
+Linux VM. Assignments that do not compile or run will receive a
+maximum of 50%. Note that we have provided anple resources for you to
+verify that our view of your assignment is the same as your own: you
+will see the result of the test execution for your assignment when
+you submit it. 
+
+You can resubmit your assignment an unlimited number of times before
+the deadline. Note the late submission policy: assignments will be
+accepted up until 3 days past the deadline at a penalty of 10% per
+late day; after 3 days, no late assignments will be accepted, no
+exceptions.
+
+
+### Sharing your repo with GTA
 
 You will submit your assignment using GitLab. The submission will
 consist of whatever is contianed in your **private**
 `labs` repository.
 
 1. You will need to share your **private** repository with our GTA (his GitLab ID
-is the same as his mason email ID: `tbd`).
+is the same as his mason email ID: `ryang22`).
 
 2. Commit all your changes by typing:
 
@@ -123,8 +159,5 @@ is the same as his mason email ID: `tbd`).
 	% git commit -am 'the final awesome solution of lab0: [Your Name] and [Your GMU ID]'
 	```
 
-And that's all. We will check the timestamp (your last commit
-timestamp) for late submission. Make sure to submit before the
-deadline.
 
 

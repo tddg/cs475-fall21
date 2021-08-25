@@ -152,7 +152,7 @@ The course schedule is tentative and subject to change\*.
 		MapReduce
   </td>
   <td class="reading">
-		MapReduce paper
+		<a href="./public/papers/mapreduce_osdi04.pdf">MapReduce</a> paper
   </td>
   <td class="hw">
 		Lab 1 out
@@ -164,7 +164,7 @@ The course schedule is tentative and subject to change\*.
 		Google File System
   </td>
   <td class="reading">
-		GFS paper
+		<a href="./public/papers/gfs_sosp03.pdf">GFS</a> paper
   </td>
   <td class="nodue">
   </td>

@@ -138,7 +138,7 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Aug 30 -->
   <td id="2021-09-02" class="date"><b>Thu 09/02</b></td>
   <td class="fundamentals">
-		Networking, RPC
+		<b>Lec 3:</b> Networking, RPC
   </td>
   <td class="reading">
 		van Steen &sect;4.1-4.2; &sect;8.3 (optional)
@@ -151,7 +151,7 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Sep 06 -->
   <td id="2021-09-07" class="date"><b>Tue 09/07</b></td>
   <td class="fundamentals">
-		MapReduce
+		<b>Lec 4:</b> MapReduce
   </td>
   <td class="reading">
 		<a href="./public/papers/mapreduce_osdi04.pdf">MapReduce</a> paper (required)
@@ -163,7 +163,7 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Sep 06 -->
   <td id="2021-09-09" class="date"><b>Thu 09/09</b></td>
   <td class="fundamentals">
-		Google File System
+		<b>Lec 5:</b> Google File System
   </td>
   <td class="reading">
 		<a href="./public/papers/gfs_sosp03.pdf">GFS</a> paper (required)

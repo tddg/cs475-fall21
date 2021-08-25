@@ -121,13 +121,13 @@ only if your code successfully passes the test.
 You must turn in your lab assignment using
 [Autolab](https://autolab-gmu-systems.org).  Read this
 [document](https://docs.google.com/document/d/1bwWx8p4_vSaNwVPzImRVKOXuj58qVMWWYu89Ejigs4A/edit?usp=sharing) 
-for instructions on how to sign-up for Autolab.  If
-you did not receive a confirmation email from Autolab to set a
-password, enter your @gmu.edu (**NOT** masonlive) email, and click
-"Forgot your password" to get a new password. 
+for instructions on how to sign-up for Autolab.  If you did not
+receive a confirmation email from Autolab to set a password, enter
+your @gmu.edu (**NOT** masonlive) email, and click "Forgot your
+password" to get a new password. 
 
-Create a **tar** file of only the two Go source files, q1.go and
-q2.go (please, .tar, not .tgz, nor .7z/.zip) and name your tar file
+Create a **tar** file of only the two Go source files, `q1.go` and
+`q2.go` (please, .tar, not .tgz, nor .7z/.zip) and name your tar file
 as `lab0-handin.tar`. When you upload your assignment, Autolab will
 automatically untar it and test it. You should verify that the result
 that Autolab generates is what you expect. Test your code on Zeus

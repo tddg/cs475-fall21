@@ -140,8 +140,9 @@ The course schedule is tentative and subject to change\*.
   <td class="fundamentals">
 		Networking, RPC
   </td>
-  <td class="reading"></td>
+  <td class="reading">
 		van Steen &sect;4.1-4.2; $sect;8.3 (optional)
+  </td>
   <td class="hwdue">
 		Lab 0 due
   </td>

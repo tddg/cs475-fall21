@@ -111,11 +111,13 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Aug 23 -->
   <td id="2021-8-26" class="date"><b>Thu 08/26</b></td>
   <td class="fundamentals">
-		Go system programming
+		Go system programming [<a href="./public/lecs/go_basics.pdf">slides</a>] 
+		[<a href="./public/lecs/go_handout.docx">handout1</a>] 
+		[<a href="./public/lecs/go_handout2.docs">handout2</a>]
   </td>
   <td class="reading"></td>
   <td class="hw">
-		Lab 0 out
+		<a href="./lab0.html">Lab 0</a> out
   </td>
 </tr>
 

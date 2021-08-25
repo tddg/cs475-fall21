@@ -111,7 +111,7 @@ The course schedule is tentative and subject to change\*.
 </tr>
 <tr> <!-- week of Aug 23 -->
   <td id="2021-8-26" class="date"><b>Thu 08/26</b></td>
-  <td class="fundamentals">
+  <td class="lecture">
 		Go system programming [<a href="./public/lecs/go_basics.pdf">slides</a>] 
 		[<a href="./public/lecs/go_handout.docx">handout1</a>] 
 		[<a href="./public/lecs/go_handout2.docx">handout2</a>]

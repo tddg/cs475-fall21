@@ -132,7 +132,7 @@ automatically untar it and test it. You should verify that the result
 that Autolab generates is what you expect. Test your code on Zeus
 before submitting it to Autolab.  Your code is tested in a cloud
 Linux VM. Assignments that do not compile or run will receive a
-maximum of 50%. Note that we have provided anple resources for you to
+maximum of 50%. Note that we have provided ample resources for you to
 verify that our view of your assignment is the same as your own: you
 will see the result of the test execution for your assignment when
 you submit it. 
@@ -146,11 +146,11 @@ exceptions.
 
 ### Sharing your repo with GTA
 
-You will submit your assignment using GitLab. The submission will
-consist of whatever is contianed in your **private**
-`labs` repository.
+Please also share  your  GitLab repo with the GTA. The submission
+will consist of whatever is contained in your **private** `labs`
+repository.
 
-1. You will need to share your **private** repository with our GTA (his GitLab ID
+1. Share your **private** repository with our GTA (his GitLab ID
 is the same as his mason email ID: `ryang22`).
 
 2. Commit all your changes by typing:

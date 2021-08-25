@@ -104,6 +104,7 @@ The course schedule is tentative and subject to change\*.
   <td id="2021-8-24" class="date"><b>Tue 08/24</b></td>
   <td class="lecture">
 		Introduction [<a href="./public/lecs/lec1-intro.pdf">slides</a>]
+		[<a href="./public/lecs/lec1-intro+notes.pdf">slides+notes</a>]
   </td>
   <td class="reading"></td>
   <td class="nodue"></td>

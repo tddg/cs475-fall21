@@ -96,7 +96,7 @@ The course schedule is tentative and subject to change\*.
  <thead>
   <tr>
    <td width="10%">Date</td><td width="45%">Topics</td>
-   <td width="30%">Readings</td><td width="15%">Notes</td>
+   <td width="33%">Readings</td><td width="12%">Notes</td>
   </tr>
  </thead>
 

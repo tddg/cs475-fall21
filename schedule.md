@@ -114,7 +114,7 @@ The course schedule is tentative and subject to change\*.
   <td class="fundamentals">
 		Go system programming [<a href="./public/lecs/go_basics.pdf">slides</a>] 
 		[<a href="./public/lecs/go_handout.docx">handout1</a>] 
-		[<a href="./public/lecs/go_handout2.docs">handout2</a>]
+		[<a href="./public/lecs/go_handout2.docx">handout2</a>]
   </td>
   <td class="reading"></td>
   <td class="hw">

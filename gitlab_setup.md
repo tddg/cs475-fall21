@@ -218,7 +218,7 @@ Check in your new code:
 You will need to share access to your GitLab repo with GTA so that we
 can pull from your repo and grade. You can enable sharing through the
 GitLab web interface. Hover over to **Settings** on the left sidebar,
-and click **Members**. Enter GTA's Patriot ID and choose a role
-(Maintainer).
+and click **Members**. Enter GTA's Patriot ID (`ryang22`) and choose
+a role (Maintainer).
 
 

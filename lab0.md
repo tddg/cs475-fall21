@@ -93,7 +93,7 @@ FAIL	intro-go	0.001s
 Apparently, the above test fails due to a certain reason. It is your
 job to finish the implementation and pass the test.
 
-Please post questions on Piazza.
+Please post questions on Ed.
 
 ## Point distribution
 

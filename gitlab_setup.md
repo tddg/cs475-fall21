@@ -158,7 +158,7 @@ most students this is probably starting to seem complicated so let's
 take a step back and think about what they are each for and how each
 can/should be used.
 
-The first, is the cs475-fall21/labs repo on GitLab. This repo
+The first, is the `cs475-fall21/labs` repo on GitLab. This repo
 contains the basis for all the projects. You'll never have to modify
 this repo or `push` anything to it - it just supplies the basis for
 the class.  There may be times when this gets updated to deal with

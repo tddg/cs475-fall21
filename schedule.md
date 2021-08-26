@@ -116,7 +116,9 @@ The course schedule is tentative and subject to change\*.
 		[<a href="./public/lecs/go_handout.docx">handout1</a>] 
 		[<a href="./public/lecs/go_handout2.docx">handout2</a>]
   </td>
-  <td class="reading"></td>
+  <td class="reading">
+		<a href="https://tour.golang.org/welcome/1">Online Go tutorial</a> (optional)
+  </td>
   <td class="hw">
 		<a href="./lab0.html">Lab 0</a> out
   </td>

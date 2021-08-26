@@ -124,7 +124,7 @@ if you haven't done this already:
 Now you'll want to 'clone' your private repo from GitLab.  Click on
 the **Clone** button at the right-top corner of your GitLab repo's
 webpage, copy the string under **Clone with SSH** to clipboard.
-Then, create a new directory called <tt>cs475-fall21</tt> under your
+Then, create a new directory called `cs475-fall21` under your
 `$HOME` directory, `cd` to your working directory, and clone your
 repo on to your Linux box (make sure to sub in your GID here for
 `<your_gid>`):

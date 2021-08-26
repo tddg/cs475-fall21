@@ -39,7 +39,7 @@ cheating!**
 
 Detailed lab setup process is listed below:
 
-## Step 1: Create a GitLab Repo
+## Step 1: Login to Mason GitLab
 
 First, you will need to login to <a
 href="https://git.gmu.edu/users/sign_in">GitLab</a> by clicking

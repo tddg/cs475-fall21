@@ -127,7 +127,7 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Aug 30 -->
   <td id="2021-8-31" class="date"><b>Tue 08/31</b></td>
   <td class="fundamentals">
-		<b>Lec 2:</b> Concurrency overview
+		<b>Lec 2:</b> Concurrency overview [<a href="./public/lecs/lec2-concurrency.pdf">slides</a>]
   </td>
   <td class="reading">
 		OSTEP: <a href="https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-intro.pdf">Processes</a>, 

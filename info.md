@@ -19,7 +19,7 @@ The course syllabus is posted [here](https://cs.gmu.edu/media/syllabi/Fall2021/C
 
 * Rui Yang
 * Email: [ryang22@gmu.edu](mailto:ryang22@gmu.edu)
-* Where: TBD
+* Where: 5321 Engineering
 * When: MW 9 am - 11 am
 
 

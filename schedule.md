@@ -146,7 +146,7 @@ The course schedule is tentative and subject to change\*.
 		van Steen &sect;4.1-4.2; &sect;8.3 (optional)
   </td>
   <td class="hwdue">
-		Lab 0 due
+		<a href="./lab0.html">Lab 0</a> due
   </td>
 </tr>
 

@@ -140,7 +140,7 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Aug 30 -->
   <td id="2021-09-02" class="date"><b>Thu 09/02</b></td>
   <td class="fundamentals">
-		<b>Lec 3:</b> Networking, RPC
+		<b>Lec 3:</b> Networking, RPC [<a href="./public/lecs/lec3-rpc.pdf">slides</a>]
   </td>
   <td class="reading">
 		van Steen &sect;4.1-4.2; &sect;8.3 (optional)

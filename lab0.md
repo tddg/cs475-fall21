@@ -6,7 +6,9 @@ permalink: /lab0.html
 
 ## Important Dates and Other Stuff
 
-**Due** Thursday, 09/02, midnight.
+**Due** ~~Thursday, 09/02, 11:59 pm.~~
+
+**Due** Tuesday, 09/07, 11:59 pm.
 
 
 ## Introduction

@@ -145,8 +145,7 @@ The course schedule is tentative and subject to change\*.
   <td class="reading">
 		van Steen &sect;4.1-4.2; &sect;8.3 (optional)
   </td>
-  <td class="hwdue">
-		<a href="./lab0.html">Lab 0</a> due
+  <td class="nodue">
   </td>
 </tr>
 
@@ -159,6 +158,7 @@ The course schedule is tentative and subject to change\*.
 		<a href="./public/papers/mapreduce_osdi04.pdf">MapReduce</a> paper (required)
   </td>
   <td class="hw">
+		<a href="./lab0.html">Lab 0</a> due <br/>
 		Lab 1 out
   </td>
 </tr>

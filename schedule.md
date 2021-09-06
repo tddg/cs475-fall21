@@ -153,7 +153,7 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Sep 06 -->
   <td id="2021-09-07" class="date"><b>Tue 09/07</b></td>
   <td class="fundamentals">
-		<b>Lec 4:</b> MapReduce
+		<b>Lec 4:</b> MapReduce [<a href="./public/lecs/lec4-mapreduce.pdf">slides</a>]
   </td>
   <td class="reading">
 		<a href="./public/papers/mapreduce_osdi04.pdf">MapReduce</a> paper (required)

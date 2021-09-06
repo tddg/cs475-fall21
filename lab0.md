@@ -158,7 +158,7 @@ is the same as his mason email ID: `ryang22`).
 
 2. Commit all your changes by typing:
 
-	```
+	```sh
 	% git commit -am 'the final awesome solution of lab0: [Your Name] and [Your GMU ID]'
 	```
 

@@ -518,10 +518,11 @@ code successfully passes the test.
 You must turn in your lab assignment using
 [Autolab](https://autolab-gmu-systems.org).  Read this
 [document](https://docs.google.com/document/d/1bwWx8p4_vSaNwVPzImRVKOXuj58qVMWWYu89Ejigs4A/edit?usp=sharing) 
-for instructions on how to sign-up for Autolab.  If you did not
+for instructions on how to sign-up for Autolab. If you did not
 receive a confirmation email from Autolab to set a password, enter
 your @gmu.edu (**NOT** masonlive) email, and click "Forgot your
-password" to get a new password. 
+password" to get a new password. You may skip the Autolab signup 
+step if you have done this in lab0.
 
 Create a **tar** file of only the following Go source files, `common_map.go`,
 `common_reduce.go`, `wc.go`, and `schedule.go`.

@@ -51,7 +51,7 @@ lab0/ src/
 
 Now your local Git reporitory should contain two separate
 sub-directories, `lab0/` and `src/`. `src/` further contains two
-sub-directories, `main` and `mapreduce`.  You will be working on
+sub-directories, `main/` and `mapreduce/`.  You will be working on
 `src/` for this lab assignment.
 
 You can also view a snapshot of Lab 1's src

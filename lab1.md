@@ -29,8 +29,8 @@ at.
 We supply you with parts of a MapReduce implementation that supports
 both distributed and non-distributed operation (just the boring
 bits). You can download the software skeleton from 
-[here](https://tddg.github.io/cs475-fall21/public/lab1.tar). 
-After downloading, untar `lab1.tar` by typing:
+[https://tddg.github.io/cs475-fall21/public/lab1.tar](https://tddg.github.io/cs475-fall21/public/lab1.tar). 
+To download the tar file from Zeus:
 
 ```sh
 % wget https://tddg.github.io/cs475-fall21/public/lab1.tar

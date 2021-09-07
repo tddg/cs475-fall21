@@ -33,6 +33,7 @@ bits). You can download the software skeleton from
 To download the tar file from Zeus:
 
 ```sh
+% cd $HOME
 % wget https://tddg.github.io/cs475-fall21/public/lab1.tar
 % tar -xvf lab1.tar
 % ls

@@ -233,7 +233,7 @@ The course schedule is tentative and subject to change\*.
 		Raft paper (extended version)
   </td>
   <td class="hwdue">
-		Lab 1 due
+		<a href="./lab1.html">Lab 1</a> due
   </td>
 </tr>
 <tr> <!-- week of Sep 27 -->

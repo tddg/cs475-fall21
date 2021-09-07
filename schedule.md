@@ -160,7 +160,7 @@ The course schedule is tentative and subject to change\*.
   </td>
   <td class="hw">
 		<a href="./lab0.html">Lab 0</a> due <br/>
-		Lab 1 out
+		<a href="./lab1.html">Lab 1</a> out
   </td>
 </tr>
 <tr> <!-- week of Sep 06 -->

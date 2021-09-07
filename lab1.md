@@ -554,7 +554,7 @@ lab0.
 **The final, important step:** Don't forget to commit all your changes:
 
 ```sh
-% git commit -am 'the final awesome solution of lab1: [Your Name] and [Your GMU ID]'
+% git commit -am 'the final awesome solution of lab1: [Your Name] and [Your GMU email]'
 ```
 
 

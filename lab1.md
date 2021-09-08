@@ -525,18 +525,30 @@ your @gmu.edu (**NOT** masonlive) email, and click "Forgot your
 password" to get a new password. You may skip the Autolab signup 
 step if you have done this in lab0.
 
-Create a **tar** file of only the following Go source files, `common_map.go`,
-`common_reduce.go`, `wc.go`, and `schedule.go`.
-Please, .tar only, not .tgz, nor .7z/.zip. 
-Name your tar file as `lab1-handin.tar`. When you upload your
-assignment, Autolab will automatically untar it and test it. You
-should verify that the result that Autolab generates is what you
-expect. Test your code on Zeus before submitting it to Autolab.  Your
-code is tested in a cloud Linux VM. Assignments that do not compile
-or run will receive a maximum of 50%. Note that we have provided
-ample resources for you to verify that our view of your assignment is
-the same as your own: you will see the result of the test execution
-for your assignment when you submit it. 
+Create a **tar** file of only the following Go source files,
+`common_map.go`, `common_reduce.go`, `wc.go`, and `schedule.go`.
+Please, .tar only, not .tgz, nor .7z/.zip.  Name your tar file as
+`lab1-handin.tar`. **Please do not put any directory in your tar file
+as our autograder is scripted to directly fetch src files not
+directories.** Use the following command to examine the content 
+of your tar file:
+
+```sh
+% tar -tvf lab1-handin.tar
+-rw-r--r--  0 yue    staff    5781 Aug 30 16:38 common_map.go
+-rw-r--r--  0 yue    staff    2911 Aug 30 16:38 common_reduce.go
+-rw-r--r--  0 yue    staff    2911 Aug 30 16:38 schedule.go
+-rw-r--r--  0 yue    staff    2911 Aug 30 16:38 wc.go
+```
+
+When you upload your assignment, Autolab will automatically untar it
+and test it. You should verify that the result that Autolab generates
+is what you expect. Test your code on Zeus before submitting it to
+Autolab.  Your code is tested in a cloud Linux VM. Assignments that
+do not compile or run will receive a maximum of 50%. Note that we
+have provided ample resources for you to verify that our view of your
+assignment is the same as your own: you will see the result of the
+test execution for your assignment when you submit it. 
 
 You can resubmit your assignment an unlimited number of times before
 the deadline. Note the late submission policy: assignments will be

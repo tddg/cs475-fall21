@@ -166,7 +166,7 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Sep 06 -->
   <td id="2021-09-09" class="date"><b>Thu 09/09</b></td>
   <td class="fundamentals">
-		<b>Lec 5:</b> Google File System
+		<b>Lec 5:</b> MapReduce II, RPCs in Go [<a href="./public/lecs/lec5-mr-ft.pdf">slides</a>]
   </td>
   <td class="reading">
 		<a href="./public/papers/gfs_sosp03.pdf">GFS</a> paper (required)

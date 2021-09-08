@@ -528,7 +528,13 @@ step if you have done this in lab0.
 Create a **tar** file of only the following Go source files,
 `common_map.go`, `common_reduce.go`, `wc.go`, and `schedule.go`.
 Please, .tar only, not .tgz, nor .7z/.zip.  Name your tar file as
-`lab1-handin.tar`. **Please do not put any directory in your tar file
+`lab1-handin.tar`. 
+
+```sh
+% tar -cvf lab1-handin.tar common_map.go common_reduce.go schedule.go wc.go
+```
+
+**Please do not put any directory in your tar file
 as our autograder is scripted to directly fetch src files not
 directories.** Use the following command to examine the content 
 of your tar file:

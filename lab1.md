@@ -55,7 +55,7 @@ sub-directories, `main/` and `mapreduce/`.  You will be working on
 `src/` for this lab assignment.
 
 You can also view a snapshot of Lab 1's src
-from [https://git.gmu.edu/cs475-fall21/labs](https://git.gmu.edu/cs475-fall21/labs). 
+from [https://git.gmu.edu/cs475-fall21/labs/-/tree/master/src](https://git.gmu.edu/cs475-fall21/labs/-/tree/master/src). 
 
 You must make sure your code runs on x86 or x86_64 machines: that is,
 `uname -a` should mention `i386 GNU/Linux` or `i686 GNU/Linux` or

@@ -166,7 +166,8 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Sep 06 -->
   <td id="2021-09-09" class="date"><b>Thu 09/09</b></td>
   <td class="fundamentals">
-		<b>Lec 5:</b> MapReduce II, RPCs in Go [<a href="./public/lecs/lec5-mr-ft.pdf">slides</a>]
+		<b>Lec 5:</b> MapReduce II, RPCs in Go [<a href="./public/lecs/lec5-mr-ft.pdf">slides</a>] <br/>
+		Lab 1 overview [<a href="https://edstem.org/us/courses/8902/discussion/601030">video</a> (Ed post)] [<a href="./public/lecs/lab1_mapreduce_arch.pdf">notes</a>]
   </td>
   <td class="reading">
 		<a href="./public/papers/gfs_sosp03.pdf">GFS</a> paper (required)

@@ -8,6 +8,10 @@ permalink: /lab1.html
 
 **Due** Tuesday, 09/28, 11:59pm.
 
+Overview video: [link](https://edstem.org/us/courses/8902/discussion/601030)
+
+Overview notes: [pdf](./public/lecs/lab1_mapreduce_arch.pdf)
+
 ## Introduction
 
 In this lab assignment you'll build a MapReduce library as a way to

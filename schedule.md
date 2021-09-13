@@ -166,8 +166,9 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Sep 06 -->
   <td id="2021-09-09" class="date"><b>Thu 09/09</b></td>
   <td class="fundamentals">
-		<b>Lec 5:</b> MapReduce II, RPCs in Go [<a href="./public/lecs/lec5-mr-ft.pdf">slides</a>] <br/>
+		<b>Lec 5-1:</b> MapReduce II, RPCs in Go [<a href="./public/lecs/lec5-mr-ft.pdf">slides</a>] <br/>
 		Lab 1 overview [<a href="https://edstem.org/us/courses/8902/discussion/601030">video</a> (Ed post)] [<a href="./public/lecs/lab1_mapreduce_arch.pdf">notes</a>]
+		<b>Lec 5-2:</b> Google File System [<a href="./public/lecs/lec5-gfs.pdf">slides</a>]
   </td>
   <td class="reading">
 		<a href="./public/papers/gfs_sosp03.pdf">GFS</a> paper (required)
@@ -179,11 +180,12 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Sep 13 -->
   <td id="2021-09-14" class="date"><b>Tue 09/14</b></td>
   <td class="fundamentals">
-		<b>Lec 6:</b> Time and clocks I
+		<b>Lec 6:</b> Time and clocks I [<a href="./public/lecs/lec6-time.pdf">slides</a> (pdf)]
+	[<a href="./public/lecs/lec6-time.pptx">slides</a> (pptx)]
   </td>
   <td class="reading">
-		Time, clocks paper, <br/>
-		van Steen &sect;6.1-6.2
+		<a href="./public/papers/time.pdf">Time, clocks</a> paper (optional), <br/>
+		van Steen &sect;6.1-6.2 (optional)
   </td>
   <td class="nodue">
   </td>

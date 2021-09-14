@@ -194,11 +194,12 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Sep 13 -->
   <td id="2021-09-16" class="date"><b>Thu 09/16</b></td>
   <td class="fundamentals">
-		<b>Lec 7:</b> Time and clocks II
+		<b>Lec 6-2:</b> Time and clocks II [<a href="./public/lecs/lec6-time.pdf">slides</a> (pdf)]
+	[<a href="./public/lecs/lec6-time.pptx">slides</a> (pptx)]
   </td>
   <td class="reading">
-		Time, clocks paper, <br/>
-		van Steen &sect;6.1-6.2
+		<a href="./public/papers/time.pdf">Time, clocks</a> paper (optional), <br/>
+		van Steen &sect;6.1-6.2 (optional)
   </td>
   <td class="nodue">
   </td>

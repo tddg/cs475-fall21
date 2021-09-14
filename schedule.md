@@ -95,8 +95,8 @@ The course schedule is tentative and subject to change\*.
 <table class="calendar" cellspacing="0" cellpadding="6" width="100%">
  <thead>
   <tr>
-   <td width="10%">Date</td><td width="45%">Topics</td>
-   <td width="33%">Readings</td><td width="12%">Notes</td>
+   <td width="10%">Date</td><td width="48%">Topics</td>
+   <td width="30%">Readings</td><td width="12%">Notes</td>
   </tr>
  </thead>
 

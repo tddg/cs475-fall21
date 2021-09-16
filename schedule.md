@@ -226,7 +226,7 @@ The course schedule is tentative and subject to change\*.
 		Consensus: Paxos
   </td>
   <td class="reading">
-		Paxos made simple paper (required),<br/>
+		Paxos paper (required),<br/>
 		van Steen &sect;8.1-8.2 (optional)
   </td>
   <td class="nodue">

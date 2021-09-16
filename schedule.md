@@ -212,7 +212,7 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Sep 20 -->
   <td id="2021-09-21" class="date"><b>Tue 09/21</b></td>
   <td class="fault-tolerance">
-		2PC, safety, liveness
+		<b>Lec 7:</b> 2PC, safety, liveness
   </td>
   <td class="reading">
 		van Steen &sect;8.5 (optional)
@@ -223,7 +223,7 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Sep 20 -->
   <td id="2021-09-23" class="date"><b>Thu 09/23</b></td>
   <td class="fault-tolerance">
-		Consensus: Paxos
+		<b>Lec 8:</b> Consensus: Paxos
   </td>
   <td class="reading">
 		Paxos paper (required),<br/>
@@ -236,7 +236,7 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Sep 27 -->
   <td id="2021-09-28" class="date"><b>Tue 09/28</b></td>
   <td class="fault-tolerance">
-		 Consensus: Raft
+		 <b>Lec 9:</b> Consensus: Raft
   </td>
   <td class="reading">
 		Raft paper (required)
@@ -248,7 +248,7 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Sep 27 -->
   <td id="2021-09-30" class="date"><b>Thu 09/30</b></td>
   <td class="fault-tolerance">
-		Consensus: Raft II
+		<b>Lec 9-2:</b> Consensus: Raft II
   </td>
   <td class="reading">
 		Raft paper (required)

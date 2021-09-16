@@ -226,7 +226,7 @@ The course schedule is tentative and subject to change\*.
 		<b>Lec 8:</b> Consensus: Paxos
   </td>
   <td class="reading">
-		Paxos paper (required),<br/>
+		<a href="./public/papers/paxos_simple.pdf">Paxos</a> paper (required),<br/>
 		van Steen &sect;8.1-8.2 (optional)
   </td>
   <td class="nodue">
@@ -239,7 +239,7 @@ The course schedule is tentative and subject to change\*.
 		 <b>Lec 9:</b> Consensus: Raft
   </td>
   <td class="reading">
-		Raft paper (required)
+		<a href="./public/papers/raft.pdf">Raft</a> paper (required)
   </td>
   <td class="hwdue">
 		<a href="./lab1.html">Lab 1</a> due
@@ -251,7 +251,7 @@ The course schedule is tentative and subject to change\*.
 		<b>Lec 9-2:</b> Consensus: Raft II
   </td>
   <td class="reading">
-		Raft paper (required)
+		<a href="./public/papers/raft.pdf">Raft</a> paper (required)
   </td>
   <td class="hw">
 		Lab 2 out

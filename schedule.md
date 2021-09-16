@@ -212,10 +212,10 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Sep 20 -->
   <td id="2021-09-21" class="date"><b>Tue 09/21</b></td>
   <td class="fault-tolerance">
-		 2PC, safety, liveness
+		2PC, safety, liveness
   </td>
   <td class="reading">
-		van Steen &sect;8.5
+		van Steen &sect;8.5 (optional)
   </td>
   <td class="nodue">
   </td>
@@ -223,11 +223,11 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Sep 20 -->
   <td id="2021-09-23" class="date"><b>Thu 09/23</b></td>
   <td class="fault-tolerance">
-		Consensus w/ Paxos
+		Consensus: Paxos
   </td>
   <td class="reading">
-		Paxos made simple paper,<br/>
-		van Steen &sect;8.1-8.2
+		Paxos made simple paper (required),<br/>
+		van Steen &sect;8.1-8.2 (optional)
   </td>
   <td class="nodue">
   </td>
@@ -236,10 +236,10 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Sep 27 -->
   <td id="2021-09-28" class="date"><b>Tue 09/28</b></td>
   <td class="fault-tolerance">
-		 Raft
+		 Consensus: Raft
   </td>
   <td class="reading">
-		Raft paper (extended version)
+		Raft paper (required)
   </td>
   <td class="hwdue">
 		<a href="./lab1.html">Lab 1</a> due
@@ -248,10 +248,10 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Sep 27 -->
   <td id="2021-09-30" class="date"><b>Thu 09/30</b></td>
   <td class="fault-tolerance">
-		More on Raft 
+		Consensus: Raft II
   </td>
   <td class="reading">
-		Raft paper (extended version)
+		Raft paper (required)
   </td>
   <td class="hw">
 		Lab 2 out

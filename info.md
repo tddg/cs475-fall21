@@ -4,9 +4,12 @@ title: "Course Information"
 permalink: /info.html
 ---
 
+
 ## Syllabus
 
 The course syllabus is posted [here](https://cs.gmu.edu/media/syllabi/Fall2021/CS_475ChengY.html).
+
+
 
 ## Instructor's office hours
 
@@ -19,7 +22,7 @@ The course syllabus is posted [here](https://cs.gmu.edu/media/syllabi/Fall2021/C
 
 * Rui Yang
 * Email: [ryang22@gmu.edu](mailto:ryang22@gmu.edu)
-* Where: 5321 Engineering
+* Where: 4456 Engineering
 * When: MW 9 am - 11 am
 
 

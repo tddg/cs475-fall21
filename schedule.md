@@ -212,7 +212,7 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Sep 20 -->
   <td id="2021-09-21" class="date"><b>Tue 09/21</b></td>
   <td class="fault-tolerance">
-		<b>Lec 7:</b> 2PC, safety, liveness
+		<b>Lec 7:</b> 2PC, safety, liveness [<a href="./public/lecs/lec7-2pc.pdf">slides</a>]
   </td>
   <td class="reading">
 		van Steen &sect;8.5 (optional)

@@ -227,7 +227,7 @@ The course schedule is tentative and subject to change\*.
   </td>
   <td class="reading">
 		<a href="./public/papers/paxos_simple.pdf">Paxos</a> paper (required),<br/>
-		watch <a href="https://youtu.be/JEpsBg0AO6o">Paxos video (required),<br/>
+		watch <a href="https://youtu.be/JEpsBg0AO6o">Paxos video</a> (required),<br/>
 		<a href="./public/papers/paxos_vs_raft.pdf">Paxos vs. Raft</a> paper: Page 7 (optional), <br/>
 		van Steen &sect;8.1-8.2 (optional)
   </td>

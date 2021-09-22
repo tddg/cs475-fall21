@@ -241,7 +241,8 @@ The course schedule is tentative and subject to change\*.
 		 <b>Lec 9:</b> Consensus: Raft 
   </td>
   <td class="reading">
-		<a href="./public/papers/raft.pdf">Raft</a> paper (required)
+		<a href="./public/papers/raft.pdf">Raft</a> paper (required), <br/>
+		watch <a href="https://youtu.be/YbZ3zDzDnrw">Raft video</a> (required) <br/>
   </td>
   <td class="hwdue">
 		<a href="./lab1.html">Lab 1</a> due
@@ -253,7 +254,8 @@ The course schedule is tentative and subject to change\*.
 		<b>Lec 9-2:</b> Consensus: Raft II
   </td>
   <td class="reading">
-		<a href="./public/papers/raft.pdf">Raft</a> paper (required)
+		<a href="./public/papers/raft.pdf">Raft</a> paper (required), <br/>
+		watch <a href="https://youtu.be/YbZ3zDzDnrw">Raft video</a> (required) <br/>
   </td>
   <td class="hw">
 		Lab 2 out

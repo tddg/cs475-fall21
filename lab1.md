@@ -450,7 +450,7 @@ If it is not clear from the listing above, the format is:
 word: #documents documents,sorted,and,separated,by,commas
 ```
 
-For full credit on this optional task, you must pass `test-ii.sh`,
+For this optional task, you must pass `test-ii.sh`,
 which runs: 
 
 ```sh

@@ -223,7 +223,7 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Sep 20 -->
   <td id="2021-09-23" class="date"><b>Thu 09/23</b></td>
   <td class="fault-tolerance">
-		<b>Lec 8:</b> Consensus: Paxos [<a href="./public/lecs/paxos.pdf">slides</a>]
+		<b>Lec 8:</b> Consensus: Paxos [<a href="./public/lecs/paxos.pdf">slides</a>] [<a href="./public/lecs/paxos+notes.pdf">slides+notes</a>]
   </td>
   <td class="reading">
 		<a href="./public/papers/paxos_simple.pdf">Paxos</a> paper (required),<br/>

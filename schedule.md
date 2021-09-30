@@ -260,7 +260,7 @@ The course schedule is tentative and subject to change\*.
 		<a href="https://raft.github.io/">Raft visualization </a>
   </td>
   <td class="hw">
-		Lab 2 out
+		<a href="./lab2.html">Lab 2a</a> out
   </td>
 </tr>
 
@@ -303,7 +303,7 @@ The course schedule is tentative and subject to change\*.
   <td class="reading">
   </td>
   <td class="hwdue">
-		Lab 2a due
+		<a href="./lab2.html">Lab 2a</a> due
   </td>
 </tr>
 

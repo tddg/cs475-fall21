@@ -343,11 +343,9 @@ Please post questions on Ed.
 
 ## Point distribution
 
-<p><table>
-<tr><th>Test</th><th>Points</th></tr>
-<tr><td>2A-1</td><td>5</td></tr>
-<tr><td>2A-2</td><td>5</td></tr>
-</table></p>
+There are a total of 2 tests for Part 2A. 
+Each individual test takes 5 points. That is, Part 2A carries 10
+points. 
 
 Your code will be tested on Autolab. No marks will be awarded if your
 code does not pass the test. You will receive full marks only if your

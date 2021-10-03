@@ -1,7 +1,7 @@
 Raft Locking Advice
 
-If you are wondering how to use locks in the 6.824 Raft labs, here are
-some rules and ways of thinking that might be helpful.
+If you are wondering how to use locks in the Raft labs, here are some
+rules and ways of thinking that might be helpful.
 
 Rule 1: Whenever you have data that more than one goroutine uses, and
 at least one goroutine might modify the data, the goroutines should

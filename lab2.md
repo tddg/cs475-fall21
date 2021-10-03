@@ -225,12 +225,12 @@ immediately, without waiting for this process to complete. The
 service expects your implementation to send an `ApplyMsg` for each new
 committed log entry to the `applyCh` argument to `Make()`. 
 
-Your Raft peers should exchange RPCs using the labrpc Go package that
+Your Raft peers should exchange RPCs using the `labrpc` Go package that
 we provide to you. It is modeled after Go's [rpc library](https://pkg.go.dev/net/rpc), but
 internally uses Go channels rather than sockets. `raft.go` contains
 some example code that sends an RPC (`sendRequestVote()`) and that
 handles an incoming RPC (`RequestVote()`). The reason you must use
-labrpc instead of Go's RPC package is that the tester tells `labrpc` to
+`labrpc` instead of Go's RPC package is that the tester tells `labrpc` to
 delay RPCs, re-order them, and delete them to simulate challenging
 network conditions under which your code should work correctly. Don't
 rely on modifications to `labrpc` because we will test your code with

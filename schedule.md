@@ -238,7 +238,7 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Sep 27 -->
   <td id="2021-09-28" class="date"><b>Tue 09/28</b></td>
   <td class="fault-tolerance">
-		<b>Lec 9:</b> Consensus: Raft [<a href="./public/lecs/raft.pdf">slides</a>]
+		<b>Lec 9:</b> Consensus: Raft [<a href="./public/lecs/raft.pdf">slides</a>] <br/>
 		How to read a paper [<a href="./public/lecs/how_to_read_a_paper.pdf">slides</a>] [<a href="https://edstem.org/us/courses/8902/discussion/674977">video</a>]
   </td>
   <td class="reading">

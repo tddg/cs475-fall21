@@ -238,7 +238,7 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Sep 27 -->
   <td id="2021-09-28" class="date"><b>Tue 09/28</b></td>
   <td class="fault-tolerance">
-		<b>Lec 9:</b> Consensus: Raft [<a href="./public/lecs/raft.pdf">slides</a>] <br/>
+		<b>Lec 9:</b> Consensus: Raft [<a href="./public/lecs/raft.pdf">slides</a>] [<a href="./public/lecs/raft+notes.pdf">slides+notes</a>] <br/>
 		How to read a paper [<a href="./public/lecs/how_to_read_a_paper.pdf">slides</a>] [<a href="https://edstem.org/us/courses/8902/discussion/674977">video</a>]
   </td>
   <td class="reading">
@@ -253,7 +253,7 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Sep 27 -->
   <td id="2021-09-30" class="date"><b>Thu 09/30</b></td>
   <td class="fault-tolerance">
-		<b>Lec 9-2:</b> Consensus: Raft II [<a href="./public/lecs/raft.pdf">slides</a>]
+		<b>Lec 9-2:</b> Consensus: Raft II [<a href="./public/lecs/raft.pdf">slides</a>] [<a href="./public/lecs/raft+notes.pdf">slides+notes</a>]
   </td>
   <td class="reading">
 		<a href="./public/papers/raft.pdf">Raft</a> paper (required), <br/>

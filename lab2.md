@@ -299,7 +299,8 @@ test your 2A code.
 > [time.Sleep()](https://pkg.go.dev/time#Sleep). The hard
 > way is to use Go's `time.Timer` or `time.Ticker`, which are difficult
 > to use correctly. 
-> * **Hint:** If you are puzzled about locking, you may find this advice helpful. 
+> * **Hint:** If you are puzzled about locking, you may find 
+> [this advice](https://tddg.github.io/cs475-fall21/public/raft-locking.txt) helpful. 
 > * **Hint:** If your code has trouble passing the tests, read the
 > paper's Figure 2 again; the full logic for leader election is
 > spread over multiple parts of the figure. 

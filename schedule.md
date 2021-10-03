@@ -239,6 +239,7 @@ The course schedule is tentative and subject to change\*.
   <td id="2021-09-28" class="date"><b>Tue 09/28</b></td>
   <td class="fault-tolerance">
 		<b>Lec 9:</b> Consensus: Raft [<a href="./public/lecs/raft.pdf">slides</a>]
+		How to read a paper [<a href="./public/lecs/how_to_read_a_paper.pdf">slides</a>]
   </td>
   <td class="reading">
 		<a href="./public/papers/raft.pdf">Raft</a> paper (required), <br/>

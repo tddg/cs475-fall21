@@ -268,7 +268,7 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Oct 04 -->
   <td id="2021-10-05" class="date"><b>Tue 10/05</b></td>
   <td class="lecture">
-		 Midterm review [<a href="./public/lecs/midterm-review.pdf">slides</a>]
+		 Midterm review [<a href="./public/lecs/midterm-review.pdf">slides</a>] [<a href="./public/lecs/midterm-review+notes.pdf">slides+notes</a>]
   </td>
   <td class="reading">
   </td>

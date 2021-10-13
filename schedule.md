@@ -302,7 +302,7 @@ The course schedule is tentative and subject to change\*.
 		<b>Lec 10:</b> Byzantine fault tolerance [<a href="./public/lecs/lec10-bft.pdf">slides</a> (pdf)] [<a href="./public/lecs/lec10-bft.pptx">slides</a> (pptx)]
   </td>
   <td class="reading">
-		<a href="./public/papers/pbft.pdf">PBFT</a> paper (optional: &sect;1-4)
+		<a href="./public/papers/pbft.pdf">PBFT</a> paper: &sect;1-4 (optional)
   </td>
   <td class="hwdue">
 		<a href="./lab2.html">Lab 2a</a> due

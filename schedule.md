@@ -299,9 +299,10 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Oct 11 -->
   <td id="2021-10-14" class="date"><b>Thu 10/14</b></td>
   <td class="fault-tolerance">
-		Byzantine fault tolerance
+		<b>Lec 10:</b> Byzantine fault tolerance [<a href="./public/lecs/lec10-bft.pdf">slides</a> (pdf)] [<a href="./public/lecs/lec10-bft.pptx">slides</a> (pptx)]
   </td>
   <td class="reading">
+		<a href="./public/papers/pbft.pdf">PBFT</a> paper (optional: &sect;1-4)
   </td>
   <td class="hwdue">
 		<a href="./lab2.html">Lab 2a</a> due

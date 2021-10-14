@@ -397,7 +397,7 @@ The course schedule is tentative and subject to change\*.
 		Datacenter as a computer paper
   </td>
   <td class="hwdue">
-		Lab 2c due
+		<a href="./lab2.html">Lab 2c</a> due
 		<p style="color:black">Lab 3 out</p>
   </td>
 </tr>

@@ -497,9 +497,9 @@ sys	0m0.881s
 %
 ```
 
-The "`ok raft 38.029s`" means that Go measured the time taken for the
-2B tests to be 38.029 seconds of real (wall-clock) time. The "user
-0m1.460s" means that the code consumed 1.460 seconds of CPU time, or
+The "`ok raft 53.088s`" means that Go measured the time taken for the
+2B tests to be 83.088 seconds of real (wall-clock) time. The "user
+0m1.600s" means that the code consumed 1.600 seconds of CPU time, or
 time spent actually executing instructions (rather than waiting or
 sleeping). If your solution uses much more than a minute of real time
 for the 2B tests, or much more than 5 seconds of CPU time, you may

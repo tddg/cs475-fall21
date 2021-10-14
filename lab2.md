@@ -644,7 +644,7 @@ Your code should pass all the 2C tests (as shown below), as well as
 the 2A and 2B tests. 
 
 ```sh
-% time go test -run 2C
+% go test -run 2C
 Test (2C): basic persistence ...
   ... Passed --   4.6  3   74   19893    6
 Test (2C): more persistence ...
@@ -663,10 +663,6 @@ Test (2C): unreliable churn ...
   ... Passed --  16.4  5  644  263237  262
 PASS
 ok  	raft	124.537s
-
-real	2m4.748s
-user	0m4.313s
-sys	0m1.797s
 ```
 
 

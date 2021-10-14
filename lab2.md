@@ -536,7 +536,7 @@ step if you have done this in lab0.
 Create a **tar** file of only the following Go source file:
 `raft.go`.
 Please, .tar only, not .tgz, nor .7z/.zip.  Name your tar file as
-`lab2a-handin.tar`. 
+`lab2b-handin.tar`. 
 
 ```sh
 % tar -cvf lab2b-handin.tar raft.go
@@ -691,7 +691,7 @@ step if you have done this in lab0.
 Create a **tar** file of only the following Go source file:
 `raft.go`.
 Please, .tar only, not .tgz, nor .7z/.zip.  Name your tar file as
-`lab2a-handin.tar`. 
+`lab2c-handin.tar`. 
 
 ```sh
 % tar -cvf lab2c-handin.tar raft.go

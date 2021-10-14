@@ -304,8 +304,7 @@ The course schedule is tentative and subject to change\*.
   <td class="reading">
 		<a href="./public/papers/pbft.pdf">PBFT</a> paper: &sect;1-4 (optional)
   </td>
-  <td class="hwdue">
-		<a href="./lab2.html">Lab 2a</a> due
+  <td class="nodue">
   </td>
 </tr>
 
@@ -328,7 +327,8 @@ The course schedule is tentative and subject to change\*.
 		Chord paper, <br/>
 		van Steen &sect;5.2 and &sect;2.3
   </td>
-  <td class="nodue">
+  <td class="hwdue">
+		<a href="./lab2.html">Lab 2a</a> due
   </td>
 </tr>
 
@@ -350,8 +350,7 @@ The course schedule is tentative and subject to change\*.
   </td>
   <td class="reading">
   </td>
-  <td class="hwdue">
-		Lab 2b due
+  <td class="nodue">
   </td>
 </tr>
 
@@ -373,7 +372,8 @@ The course schedule is tentative and subject to change\*.
   <td class="reading">
 		Spark paper
   </td>
-  <td class="nodue">
+  <td class="hwdue">
+		<a href="./lab2.html">Lab 2b</a> due
   </td>
 </tr>
 

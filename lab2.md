@@ -6,11 +6,11 @@ permalink: /lab2.html
 
 ## Important Dates and Other Stuff
 
-**Part 2A Due** Thursday, 10/14, 11:59pm.
+**Part 2A Due** Thursday, 10/21, 11:59pm.
 
-**Part 2B Due** TBD
+**Part 2B Due** Thursday, 11/04, 11:59pm.
 
-**Part 2C Due** TBD
+**Part 2C Due** Thursday, 11/11, 11:59pm.
 
 
 ## Resources
@@ -128,10 +128,10 @@ To get up and running, execute the following commands:
 
 ```sh
 ...
-$ cd cs475-fall21/labs
-$ export GOPATH="$PWD"
-$ cd src/raft
-$ go test
+% cd cs475-fall21/labs
+% export GOPATH="$PWD"
+% cd src/raft
+% go test
 Test (2A): initial election ...
 --- FAIL: TestInitialElection2A (4.84s)
     config.go:326: expected one leader, got none
@@ -149,7 +149,7 @@ When you've finished all three parts of the lab, your implementation
 should pass all the tests in the `src/raft` directory:
 
 ```sh
-$ go test
+% go test
 Test (2A): initial election ...
   ... Passed --   3.0  3   46   13164    0
 Test (2A): election after network failure ...
@@ -322,7 +322,7 @@ Be sure you pass the 2A tests before submitting Part 2A, so that you
 see something like this: 
 
 ```sh
-$ go test -run 2A
+% go test -run 2A
 Test (2A): initial election ...
   ... Passed --   2.5  3   30    0
 Test (2A): election after network failure ...
@@ -425,7 +425,317 @@ lab0.
 
 ## Part 2B 
 
-TBD...
+
+We want Raft to keep a consistent, replicated log of operations. A
+call to `Start()` at the leader starts the process of adding a new
+operation to the log; the leader sends the new operation to the other
+servers in `AppendEntries` RPCs. 
+
+**Task:**
+Implement the leader and follower code to append new log entries.
+This will involve implementing `Start()`, completing the `AppendEntries`
+RPC structs, sending them, fleshing out the `AppendEntry` RPC handler,
+and advancing the `commitIndex` at the leader. Your first goal should
+be to pass the `TestBasicAgree2B()` test (in `test_test.go`). Once you
+have that working, you should get all the 2B tests to pass (`go test
+-run 2B`). 
+
+
+> * **Hint:** You will need to implement the election restriction
+> (section 5.4.1 in the paper). 
+> * **Hint:** One way to fail the early Lab 2B tests is to hold
+> un-needed elections, that is, an election even though the current
+> leader is alive and can talk to all peers. This can prevent
+> agreement in situations where the tester believes agreement is
+> possible. Bugs in election timer management, or not sending out
+> heartbeats immediately after winning an election, can cause
+> un-needed elections.
+> * **Hint:** You may need to write code that waits for certain
+> events to occur. Do not write loops that execute continuously
+> without pausing, since that will slow your implementation enough
+> that it fails tests. You can wait efficiently with Go's channels,
+> or Go's [condition variables](https://pkg.go.dev/sync#Cond), or (if
+> all else fails) by inserting a `time.Sleep(10 * time.Millisecond)`
+> in each loop iteration. 
+> * **Hint:** Give yourself time to rewrite your implementation in
+> light of lessons learned about structuring concurrent code. In
+> later labs you'll thank yourself for having Raft code that's as
+> clear and clean as possible. For ideas, you can re-visit the 
+> [Raft structure](https://tddg.github.io/cs475-fall21/public/raft-structure.txt), 
+> [locking](https://tddg.github.io/cs475-fall21/public/raft-locking.txt) 
+> and [guide](https://thesquareplanet.com/blog/students-guide-to-raft/), pages. 
+
+The tests for upcoming labs may fail your code if it runs too slowly.
+You can check how much real time and CPU time your solution uses with
+the time command. Here's some typical output for Lab 2B: 
+
+
+```sh
+% time go test -run 2B
+Test (2B): basic agreement ...
+  ... Passed --   1.2  3   16    4598    3
+Test (2B): RPC byte count ...
+  ... Passed --   3.0  3   48  114626   11
+Test (2B): agreement despite follower disconnection ...
+  ... Passed --   6.5  3  112   30220    7
+Test (2B): no agreement if too many followers disconnect ...
+  ... Passed --   3.8  5  180   37559    3
+Test (2B): concurrent Start()s ...
+  ... Passed --   0.7  3    8    2274    6
+Test (2B): rejoin of partitioned leader ...
+  ... Passed --   4.6  3  128   31025    4
+Test (2B): leader backs up quickly over incorrect follower logs ...
+  ... Passed --  31.0  5 2200 1771420  103
+Test (2B): RPC counts arent too high ...
+  ... Passed --   2.3  3   36   10862   12
+PASS
+ok  	raft	53.088s
+
+real	0m53.303s
+user	0m1.600s
+sys	0m0.881s
+%
+```
+
+The "`ok raft 38.029s`" means that Go measured the time taken for the
+2B tests to be 38.029 seconds of real (wall-clock) time. The "user
+0m1.460s" means that the code consumed 1.460 seconds of CPU time, or
+time spent actually executing instructions (rather than waiting or
+sleeping). If your solution uses much more than a minute of real time
+for the 2B tests, or much more than 5 seconds of CPU time, you may
+run into trouble later on. Look for time spent sleeping or waiting
+for RPC timeouts, loops that run without sleeping or waiting for
+conditions or channel messages, or large numbers of RPCs sent. 
+
+Be sure you pass the 2A and 2B tests before submitting Part 2B. 
+
+
+
+## Point distribution
+
+There are a total of 8 tests for Part 2B. 
+Each individual test takes 5 points. That is, Part 2B carries 40
+points. 
+
+Your code will be tested on Autolab. No marks will be awarded if your
+code does not pass the test. You will receive full marks only if your
+code successfully passes the test.
+
+
+### Submitting 2B on Autolab
+
+You must turn in your lab assignment using
+[Autolab](https://autolab-gmu-systems.org).  Read this
+[document](https://docs.google.com/document/d/1bwWx8p4_vSaNwVPzImRVKOXuj58qVMWWYu89Ejigs4A/edit?usp=sharing) 
+for instructions on how to sign-up for Autolab. If you did not
+receive a confirmation email from Autolab to set a password, enter
+your @gmu.edu (**NOT** masonlive) email, and click "Forgot your
+password" to get a new password. You may skip the Autolab signup 
+step if you have done this in lab0.
+
+Create a **tar** file of only the following Go source file:
+`raft.go`.
+Please, .tar only, not .tgz, nor .7z/.zip.  Name your tar file as
+`lab2a-handin.tar`. 
+
+```sh
+% tar -cvf lab2b-handin.tar raft.go
+```
+
+**Please do not put any directory in your tar file
+as our autograder is scripted to directly fetch src files not
+directories.** Use the following command to examine the content 
+of your tar file:
+
+```sh
+% tar -tvf lab2b-handin.tar
+-rw-r--r--  0 yue    staff    2911 Sep 30 16:38 raft.go
+```
+
+When you upload your assignment, Autolab will automatically untar it
+and test it. You should verify that the result that Autolab generates
+is what you expect. Test your code on Zeus before submitting it to
+Autolab.  Your code is tested in a cloud Linux VM. Assignments that
+do not compile or run will receive a maximum of 50%. Note that we
+have provided ample resources for you to verify that our view of your
+assignment is the same as your own: you will see the result of the
+test execution for your assignment when you submit it. 
+
+You can resubmit your assignment an unlimited number of times before
+the deadline. Note the late submission policy: assignments will be
+accepted up until 3 days past the deadline at a penalty of 10% per
+late day; after 3 days, no late assignments will be accepted, no
+exceptions.
+
+
+### Sharing your repo with GTA 
+
+
+You will need to share your **private** repository with our GTA
+Rui (his GitLab ID is the same as his Mason Email ID: `ryang22`).
+You may skip the above sharing step if you have done it already for
+lab0.
+
+**The final, important step:** Don't forget to commit all your changes:
+
+```sh
+% git commit -am 'the final awesome solution of lab2b: [Your Name] and [Your GMU email]'
+```
+
+
+## Part C
+
+If a Raft-based server reboots it should resume service where it
+left off. This requires that Raft keep persistent state that survives
+a reboot. The paper's Figure 2 mentions which state should be
+persistent, and `raft.go` contains examples of how to save and restore
+persistent state.
+
+A “real” implementation would do this by writing Raft's persistent
+state to disk each time it changes, and reading the latest saved
+state from disk when restarting after a reboot. Your implementation
+won't use the disk; instead, it will save and restore persistent
+state from a `Persister` object (see `persister.go`). Whoever calls
+`Raft.Make()` supplies a Persister that initially holds Raft's most
+recently persisted state (if any). Raft should initialize its state
+from that `Persister`, and should use it to save its persistent state
+each time the state changes. Use the `Persister`'s `ReadRaftState()` and
+`SaveRaftState()` methods. 
+
+**Task:**
+Complete the functions `persist()` and `readPersist()` in `raft.go` by
+adding code to save and restore persistent state. You will need to
+encode (or "serialize") the state as an array of bytes in order to
+pass it to the `Persister`. Use the `labgob` encoder we provide to do
+this; see the comments in `persist()` and `readPersist()`. `labgob` is
+derived from Go's `gob` encoder; the only difference is that `labgob`
+prints error messages if you try to encode structures with lower-case
+field names. 
+
+**Task:**
+You now need to determine at what points in the Raft protocol your
+servers are required to persist their state, and insert calls to
+`persist()` in those places. There is already a call to `readPersist()`
+in `Raft.Make()`. Once you've done this, you should pass the remaining
+tests. You may want to first try to pass the "basic persistence" test
+(`go test -run 'TestPersist12C'`), and then tackle the remaining ones
+(`go test -run 2C`). 
+
+> * **Note:**  In order to avoid running out of memory, Raft must
+> periodically discard old log entries, but you do not have to worry
+> about this until the next lab. 
+
+> * **Hint:** Many of the 2C tests involve servers failing and the
+> network losing RPC requests or replies. 
+> * **Hint:** In order to pass some of the challenging tests towards
+> the end, such as those marked "unreliable", you will need to
+> implement the optimization to allow a follower to back up the
+> leader's nextIndex by more than one entry at a time. See the
+> description in the extended Raft paper starting at the bottom of
+> page 7 and top of page 8 (marked by a gray line). The paper is
+> vague about the details; you will need to fill in the gaps, perhaps
+> with the help of the 6.824 Raft lectures
+> * **Hint:** A reasonable amount of time to consume for the full set
+> of Lab 2 tests (2A+2B+2C) is 4 minutes of real time and one minute
+> of CPU time. 
+
+
+Your code should pass all the 2C tests (as shown below), as well as
+the 2A and 2B tests. 
+
+```sh
+% go test -run 2C
+Test (2C): basic persistence ...
+  ... Passed --   3.4  3   60    6
+Test (2C): more persistence ...
+  ... Passed --  17.0  5  705   16
+Test (2C): partitioned leader and one follower crash, leader restarts ...
+  ... Passed --   1.4  3   27    4
+Test (2C): Figure 8 ...
+  ... Passed --  33.2  5  852   53
+Test (2C): unreliable agreement ...
+  ... Passed --   2.4  5  207  246
+Test (2C): Figure 8 (unreliable) ...
+  ... Passed --  35.3  5 1838  216
+Test (2C): churn ...
+  ... Passed --  16.2  5 5138 2260
+Test (2C): unreliable churn ...
+  ... Passed --  16.2  5 1254  603
+PASS
+ok      raft    124.999s
+```
+
+
+## Point distribution
+
+There are a total of 8 tests for Part 2C. 
+Each individual test takes 5 points. That is, Part 2C carries 40
+points. 
+
+Your code will be tested on Autolab. No marks will be awarded if your
+code does not pass the test. You will receive full marks only if your
+code successfully passes the test.
+
+
+### Submitting 2C on Autolab
+
+You must turn in your lab assignment using
+[Autolab](https://autolab-gmu-systems.org).  Read this
+[document](https://docs.google.com/document/d/1bwWx8p4_vSaNwVPzImRVKOXuj58qVMWWYu89Ejigs4A/edit?usp=sharing) 
+for instructions on how to sign-up for Autolab. If you did not
+receive a confirmation email from Autolab to set a password, enter
+your @gmu.edu (**NOT** masonlive) email, and click "Forgot your
+password" to get a new password. You may skip the Autolab signup 
+step if you have done this in lab0.
+
+Create a **tar** file of only the following Go source file:
+`raft.go`.
+Please, .tar only, not .tgz, nor .7z/.zip.  Name your tar file as
+`lab2a-handin.tar`. 
+
+```sh
+% tar -cvf lab2c-handin.tar raft.go
+```
+
+**Please do not put any directory in your tar file
+as our autograder is scripted to directly fetch src files not
+directories.** Use the following command to examine the content 
+of your tar file:
+
+```sh
+% tar -tvf lab2c-handin.tar
+-rw-r--r--  0 yue    staff    2911 Sep 30 16:38 raft.go
+```
+
+When you upload your assignment, Autolab will automatically untar it
+and test it. You should verify that the result that Autolab generates
+is what you expect. Test your code on Zeus before submitting it to
+Autolab.  Your code is tested in a cloud Linux VM. Assignments that
+do not compile or run will receive a maximum of 50%. Note that we
+have provided ample resources for you to verify that our view of your
+assignment is the same as your own: you will see the result of the
+test execution for your assignment when you submit it. 
+
+You can resubmit your assignment an unlimited number of times before
+the deadline. Note the late submission policy: assignments will be
+accepted up until 3 days past the deadline at a penalty of 10% per
+late day; after 3 days, no late assignments will be accepted, no
+exceptions.
+
+
+### Sharing your repo with GTA 
+
+
+You will need to share your **private** repository with our GTA
+Rui (his GitLab ID is the same as his Mason Email ID: `ryang22`).
+You may skip the above sharing step if you have done it already for
+lab0.
+
+**The final, important step:** Don't forget to commit all your changes:
+
+```sh
+% git commit -am 'the final awesome solution of lab2c: [Your Name] and [Your GMU email]'
+```
 
 
 ## Acknowledgment

@@ -644,25 +644,29 @@ Your code should pass all the 2C tests (as shown below), as well as
 the 2A and 2B tests. 
 
 ```sh
-% go test -run 2C
+% time go test -run 2C
 Test (2C): basic persistence ...
-  ... Passed --   3.4  3   60    6
+  ... Passed --   4.6  3   74   19893    6
 Test (2C): more persistence ...
-  ... Passed --  17.0  5  705   16
+  ... Passed --  17.5  5  840  185852   16
 Test (2C): partitioned leader and one follower crash, leader restarts ...
-  ... Passed --   1.4  3   27    4
+  ... Passed --   2.2  3   32    8299    4
 Test (2C): Figure 8 ...
-  ... Passed --  33.2  5  852   53
+  ... Passed --  27.0  5  700  141239   22
 Test (2C): unreliable agreement ...
-  ... Passed --   2.4  5  207  246
+  ... Passed --   6.5  5  220   81875  246
 Test (2C): Figure 8 (unreliable) ...
-  ... Passed --  35.3  5 1838  216
+  ... Passed --  34.2  5 2308 7989683  312
 Test (2C): churn ...
-  ... Passed --  16.2  5 5138 2260
+  ... Passed --  16.3  5  552  368926  351
 Test (2C): unreliable churn ...
-  ... Passed --  16.2  5 1254  603
+  ... Passed --  16.4  5  644  263237  262
 PASS
-ok      raft    124.999s
+ok  	raft	124.537s
+
+real	2m4.748s
+user	0m4.313s
+sys	0m1.797s
 ```
 
 

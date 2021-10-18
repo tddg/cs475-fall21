@@ -315,7 +315,7 @@ The course schedule is tentative and subject to change\*.
   </td>
   <td class="reading">
 		<a href="./public/papers/linearizability.pdf">Linearizability</a> paper: &sect;1-2 (required) <br/>
-		<a href="./public/papers/rifl.pdf">RIFL</a> paper: $sect;2 (optional)
+		<a href="./public/papers/rifl.pdf">RIFL</a> paper: &sect;2 (optional)
   </td>
   <td class="nodue">
   </td>

@@ -299,7 +299,7 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Oct 11 -->
   <td id="2021-10-14" class="date"><b>Thu 10/14</b></td>
   <td class="fault-tolerance">
-		<b>Lec 10:</b> Byzantine fault tolerance [<a href="./public/lecs/lec10-bft.pdf">slides</a> (pdf)] [<a href="./public/lecs/lec10-bft.pptx">slides</a> (pptx)]
+		<b>Lec 10:</b> Byzantine fault tolerance [<a href="./public/lecs/lec10-bft.pdf">slides</a> (pdf)] [<a href="./public/lecs/lec10-bft.pptx">slides</a> (pptx)] [<a href="./public/lecs/lec10-bft+notes.pdf">slides+notes</a> (pdf)] [<a href="./public/lecs/lec10-bft+notes.pptx">slides+notes</a> (pptx)]
   </td>
   <td class="reading">
 		<a href="./public/papers/pbft.pdf">PBFT</a> paper: &sect;1-4 (optional)

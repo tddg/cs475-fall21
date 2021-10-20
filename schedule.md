@@ -326,8 +326,6 @@ The course schedule is tentative and subject to change\*.
 		<b>Lec 12:</b> CAP Theorem [<a href="./public/lecs/lec11-cap.pdf">slides</a> (pdf)]
   </td>
   <td class="reading">
-		<a href="./public/papers/linearizability.pdf">Linearizability</a> paper: &sect;1-2 (required) <br/>
-		<a href="./public/papers/rifl.pdf">RIFL</a> paper: &sect;2 (optional) <br/>
 		<a href="http://dbmsmusings.blogspot.com/2010/04/problems-with-cap-and-yahoos-little.html">Problems with CAP</a> blog (optional)
   </td>
   <td class="hwdue">

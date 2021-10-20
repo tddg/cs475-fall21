@@ -323,7 +323,7 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Oct 18 -->
   <td id="2021-10-21" class="date"><b>Thu 10/21</b></td>
   <td class="consistency">
-		<b>Lec 12:</b> CAP Theorem [<a href="./public/lecs/lec11-cap.pdf">slides</a> (pdf)]
+		<b>Lec 12:</b> CAP Theorem and causal consistency [<a href="./public/lecs/lec11-cap.pdf">slides</a> (pdf)]
   </td>
   <td class="reading">
 		<a href="http://dbmsmusings.blogspot.com/2010/04/problems-with-cap-and-yahoos-little.html">Problems with CAP</a> blog (optional)
@@ -336,7 +336,7 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Oct 25 -->
   <td id="2021-10-26" class="date"><b>Tue 10/26</b></td>
   <td class="consistency">
-		Eventual consistency, Dynamo
+		<b>Lec 13:</b> Eventual consistency, Dynamo
   </td>
   <td class="reading">
 		Dynamo paper

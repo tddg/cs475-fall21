@@ -311,7 +311,7 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Oct 18 -->
   <td id="2021-10-19" class="date"><b>Tue 10/19</b></td>
   <td class="consistency">
-		<b>Lec 11:</b> Strong consistency and CAP theorem [<a href="./public/lecs/lec11-cap.pdf">slides</a> (pdf)]
+		<b>Lec 11:</b> Strong consistency [<a href="./public/lecs/lec11-cap.pdf">slides</a> (pdf)]
   </td>
   <td class="reading">
 		<a href="./public/papers/linearizability.pdf">Linearizability</a> paper: &sect;1-2 (required) <br/>
@@ -323,11 +323,12 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Oct 18 -->
   <td id="2021-10-21" class="date"><b>Thu 10/21</b></td>
   <td class="consistency">
-		DHT, Chord
+		<b>Lec 12:</b> CAP Theorem [<a href="./public/lecs/lec11-cap.pdf">slides</a> (pdf)]
   </td>
   <td class="reading">
-		Chord paper, <br/>
-		van Steen &sect;5.2 and &sect;2.3
+		<a href="./public/papers/linearizability.pdf">Linearizability</a> paper: &sect;1-2 (required) <br/>
+		<a href="./public/papers/rifl.pdf">RIFL</a> paper: &sect;2 (optional) <br/>
+		<a href="http://dbmsmusings.blogspot.com/2010/04/problems-with-cap-and-yahoos-little.html">Problems with CAP</a> blog (optional)
   </td>
   <td class="hwdue">
 		<a href="./lab2.html">Lab 2a</a> due

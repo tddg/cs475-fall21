@@ -323,7 +323,8 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Oct 18 -->
   <td id="2021-10-21" class="date"><b>Thu 10/21</b></td>
   <td class="consistency">
-		<b>Lec 12:</b> CAP Theorem and causal consistency [<a href="./public/lecs/lec11-cap.pdf">slides</a> (pdf)]
+		<b>Lec 12:</b> CAP Theorem and causal consistency [<a href="./public/lecs/lec11-cap.pdf">slides</a> (pdf)] <br/>
+		<a href="https://forms.gle/4wpeSWpe1uY68F1n8">PQ</a>
   </td>
   <td class="reading">
 		<a href="http://dbmsmusings.blogspot.com/2010/04/problems-with-cap-and-yahoos-little.html">Problems with CAP</a> blog (optional)

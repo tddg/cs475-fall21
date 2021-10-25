@@ -336,7 +336,7 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Oct 25 -->
   <td id="2021-10-26" class="date"><b>Tue 10/26</b></td>
   <td class="consistency">
-		<b>Lec 13:</b> Eventual consistency, Dynamo [<a href="./public/lecs/lec13-dynamo.pdf">slides</a>]
+		<b>Lec 13:</b> Eventual consistency, consistent hashing, Dynamo [<a href="./public/lecs/lec13-dynamo.pdf">slides</a>]
   </td>
   <td class="reading">
 		<a href="./public/papers/dynamo_sosp07.pdf">Dynamo</a> paper (required)

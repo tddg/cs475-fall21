@@ -336,7 +336,8 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Oct 25 -->
   <td id="2021-10-26" class="date"><b>Tue 10/26</b></td>
   <td class="consistency">
-		<b>Lec 13:</b> Consistent hashing, Dynamo [<a href="./public/lecs/lec13-dynamo.pdf">slides</a>]
+		<b>Lec 13:</b> Consistent hashing, Dynamo [<a href="./public/lecs/lec13-dynamo.pdf">slides</a>] <br/>
+		<a href="https://forms.gle/q4dhAGVZTSsY4Sbz8">PQ</a>
   </td>
   <td class="reading">
 		<a href="./public/papers/dynamo_sosp07.pdf">Dynamo</a> paper (required)
@@ -347,9 +348,10 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Oct 25 -->
   <td id="2021-10-28" class="date"><b>Thu 10/28</b></td>
   <td class="consistency">
-		Concurrency control, locking
+		<b>Lec 13-2:</b> Consistent hashing, Dynamo [<a href="./public/lecs/lec13-dynamo.pdf">slides</a>] <br/>
   </td>
   <td class="reading">
+		<a href="./public/papers/dynamo_sosp07.pdf">Dynamo</a> paper (required)
   </td>
   <td class="nodue">
   </td>
@@ -358,6 +360,7 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Nov 1 -->
   <td id="2021-11-02" class="date"><b>Tue 11/02</b></td>
   <td class="consistency">
+		Concurrency control, locking <br/>
 		OCC, MVCC
   </td>
   <td class="reading">

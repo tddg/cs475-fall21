@@ -311,7 +311,10 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Oct 18 -->
   <td id="2021-10-19" class="date"><b>Tue 10/19</b></td>
   <td class="consistency">
-		<b>Lec 11:</b> Strong consistency [<a href="./public/lecs/lec11-cap.pdf">slides</a> (pdf)]
+		<b>Lec 11:</b> Strong consistency [<a href="./public/lecs/lec11-strong-consistency.pdf">slides</a> (pdf)] 
+		[<a href="./public/lecs/lec11-strong-consistency+notes.pdf">pdf+notes</a>] 
+		[<a href="./public/lecs/lec11-strong-consistency.pptx">slides</a> (pptx]
+		[<a href="./public/lecs/lec11-strong-consistency+notes.pptx">pptx+notes</a>]
   </td>
   <td class="reading">
 		<a href="./public/papers/linearizability.pdf">Linearizability</a> paper: &sect;1-2 (required) <br/>
@@ -323,7 +326,11 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Oct 18 -->
   <td id="2021-10-21" class="date"><b>Thu 10/21</b></td>
   <td class="consistency">
-		<b>Lec 12:</b> CAP Theorem and causal consistency [<a href="./public/lecs/lec11-cap.pdf">slides</a> (pdf)] <br/>
+		<b>Lec 12:</b> CAP Theorem and causal consistency 
+		[<a href="./public/lecs/lec12-cap.pdf">slides</a> (pdf)] 
+		[<a href="./public/lecs/lec12-cap+notes.pdf">pdf+notes</a>] 
+		[<a href="./public/lecs/lec12-cap.pptx">slides</a> (pptx)] 
+		[<a href="./public/lecs/lec12-cap+notes.pptx">pptx+notes</a>] 
   </td>
   <td class="reading">
 		<a href="http://dbmsmusings.blogspot.com/2010/04/problems-with-cap-and-yahoos-little.html">Problems with CAP</a> blog (optional)
@@ -336,8 +343,7 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Oct 25 -->
   <td id="2021-10-26" class="date"><b>Tue 10/26</b></td>
   <td class="consistency">
-		<b>Lec 13:</b> Consistent hashing, Dynamo [<a href="./public/lecs/lec13-dynamo.pdf">slides</a>] <br/>
-		<a href="https://forms.gle/q4dhAGVZTSsY4Sbz8">PQ</a>
+		<b>Lec 13:</b> Consistent hashing, Dynamo [<a href="./public/lecs/lec13-dynamo.pdf">slides</a>]
   </td>
   <td class="reading">
 		<a href="./public/papers/dynamo_sosp07.pdf">Dynamo</a> paper (required)

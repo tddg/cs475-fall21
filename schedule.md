@@ -314,7 +314,8 @@ The course schedule is tentative and subject to change\*.
 		<b>Lec 11:</b> Strong consistency [<a href="./public/lecs/lec11-strong-consistency.pdf">slides</a> (pdf)] 
 		[<a href="./public/lecs/lec11-strong-consistency+notes.pdf">pdf+notes</a>] 
 		[<a href="./public/lecs/lec11-strong-consistency.pptx">slides</a> (pptx]
-		[<a href="./public/lecs/lec11-strong-consistency+notes.pptx">pptx+notes</a>]
+		[<a href="./public/lecs/lec11-strong-consistency+notes.pptx">pptx+notes</a>] <br/>
+		Linearizability examples [<a href="./public/lecs/linearizability_examples.pdf">notes</a>]
   </td>
   <td class="reading">
 		<a href="./public/papers/linearizability.pdf">Linearizability</a> paper: &sect;1-2 (required) <br/>

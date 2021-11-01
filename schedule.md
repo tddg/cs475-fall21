@@ -367,7 +367,7 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Nov 1 -->
   <td id="2021-11-02" class="date"><b>Tue 11/02</b></td>
   <td class="consistency">
-		<b>Lec 14:</b> Concurrency control, locking
+		<b>Lec 14:</b> Concurrency control, recovery, and locking [<a href="./public/lecs/lec14-cc.pdf">slides</a> (pdf)]
   </td>
   <td class="reading">
 		<a href="./public/papers/franklin97.pdf">Franklin</a> paper: &sect;1-3.1 (required)

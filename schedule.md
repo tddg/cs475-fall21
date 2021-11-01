@@ -367,21 +367,21 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Nov 1 -->
   <td id="2021-11-02" class="date"><b>Tue 11/02</b></td>
   <td class="consistency">
-		Concurrency control, locking <br/>
-		OCC, MVCC
+		<b>Lec 14:</b> Concurrency control, locking
   </td>
   <td class="reading">
+		<a href="./public/papers/franklin97.pdf">Franklin</a> paper: &sect;1-3.1 (required)
   </td>
   <td class="nodue">
   </td>
 </tr>
 <tr> <!-- week of Nov 1 -->
   <td id="2021-11-04" class="date"><b>Thu 11/04</b></td>
-  <td class="advanced">
-		Spark
+  <td class="consistency">
+		<b>Lec 14-2:</b>Recovery, OCC, MVCC
   </td>
   <td class="reading">
-		Spark paper
+		<a href="./public/papers/franklin97.pdf">Franklin</a> paper: &sect;3.2 (required)
   </td>
   <td class="hwdue">
 		<a href="./lab2.html">Lab 2b</a> due
@@ -391,10 +391,10 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Nov 8 -->
   <td id="2021-11-09" class="date"><b>Tue 11/09</b></td>
   <td class="advanced">
-		Facebook Memcache
+		Spark
   </td>
   <td class="reading">
-		Scaling memcache paper
+		Spark paper
   </td>
   <td class="nodue">
   </td>
@@ -402,10 +402,10 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Nov 8 -->
   <td id="2021-11-11" class="date"><b>Thu 11/11</b></td>
   <td class="advanced">
-		Datacenter as a computer
+		Facebook Memcache
   </td>
   <td class="reading">
-		Datacenter as a computer paper
+		Scaling memcache paper
   </td>
   <td class="hwdue">
 		<a href="./lab2.html">Lab 2c</a> due

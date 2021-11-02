@@ -378,10 +378,9 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Nov 1 -->
   <td id="2021-11-04" class="date"><b>Thu 11/04</b></td>
   <td class="consistency">
-		<b>Lec 14-2:</b> Recovery, OCC, MVCC
+		<b>Lec 14-2:</b> OCC, MVCC
   </td>
   <td class="reading">
-		<a href="./public/papers/franklin97.pdf">Franklin</a> paper: &sect;3.2 (required)
   </td>
   <td class="hwdue">
 		<a href="./lab2.html">Lab 2b</a> due

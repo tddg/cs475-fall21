@@ -344,7 +344,11 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Oct 25 -->
   <td id="2021-10-26" class="date"><b>Tue 10/26</b></td>
   <td class="consistency">
-		<b>Lec 13:</b> Consistent hashing, Dynamo [<a href="./public/lecs/lec13-dynamo.pdf">slides</a>]
+		<b>Lec 13:</b> Consistent hashing, Dynamo 
+		[<a href="./public/lecs/lec13-dynamo.pdf">slides</a> (pdf)]
+		[<a href="./public/lecs/lec13-dynamo+notes.pdf">pdf+notes</a>] 
+		[<a href="./public/lecs/lec13-dynamo.pptx">slides</a> (pptx)] 
+		[<a href="./public/lecs/lec13-dynamo+notes.pptx">pptx+notes</a>] 
   </td>
   <td class="reading">
 		<a href="./public/papers/dynamo_sosp07.pdf">Dynamo</a> paper (required)
@@ -355,7 +359,13 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Oct 25 -->
   <td id="2021-10-28" class="date"><b>Thu 10/28</b></td>
   <td class="consistency">
-		<b>Lec 13-2:</b> Consistent hashing, Dynamo [<a href="./public/lecs/lec13-dynamo.pdf">slides</a>] <br/>
+		<b>Lec 13-2:</b> Consistent hashing, Dynamo
+		[<a href="./public/lecs/lec13-dynamo.pdf">slides</a> (pdf)]
+		[<a href="./public/lecs/lec13-dynamo+notes.pdf">pdf+notes</a>] 
+		[<a href="./public/lecs/lec13-dynamo.pptx">slides</a> (pptx)] 
+		[<a href="./public/lecs/lec13-dynamo+notes.pptx">pptx+notes</a>] <br/>
+		Hinted handoff consistency example (Slide#57) [<a href="./public/lecs/hinted_handoff.pdf">notes</a>] <br/>
+		VV ppplication-resolving case (Slide#70) [<a href="./public/lecs/app_resolving_timeline.pdf">notes</a>]
   </td>
   <td class="reading">
 		<a href="./public/papers/dynamo_sosp07.pdf">Dynamo</a> paper (required)

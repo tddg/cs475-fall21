@@ -388,9 +388,10 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Nov 1 -->
   <td id="2021-11-04" class="date"><b>Thu 11/04</b></td>
   <td class="consistency">
-		<b>Lec 14-2:</b> OCC, MVCC
+		<b>Lec 14-2:</b> Concurrency control, recovery, and locking [<a href="./public/lecs/lec14-cc.pdf">slides</a> (pdf)]
   </td>
   <td class="reading">
+		<a href="./public/papers/franklin97.pdf">Franklin</a> paper: &sect;1-3.1 (required)
   </td>
   <td class="hwdue">
 		<a href="./lab2.html">Lab 2b</a> due
@@ -399,11 +400,11 @@ The course schedule is tentative and subject to change\*.
 
 <tr> <!-- week of Nov 8 -->
   <td id="2021-11-09" class="date"><b>Tue 11/09</b></td>
-  <td class="advanced">
-		Spark
+  <td class="consistency">
+		<b>Lec 15:</b> OCC, MVCC
   </td>
   <td class="reading">
-		Spark paper
+		
   </td>
   <td class="nodue">
   </td>
@@ -411,10 +412,10 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Nov 8 -->
   <td id="2021-11-11" class="date"><b>Thu 11/11</b></td>
   <td class="advanced">
-		Facebook Memcache
+		Spark
   </td>
   <td class="reading">
-		Scaling memcache paper
+		Spark paper
   </td>
   <td class="hwdue">
 		<a href="./lab2.html">Lab 2c</a> due
@@ -425,9 +426,10 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Nov 15 -->
   <td id="2021-11-16" class="date"><b>Tue 11/16</b></td>
   <td class="advanced">
-		Cloud computing
+		Facebook Memcache
   </td>
   <td class="reading">
+		Scaling memcache paper
   </td>
   <td class="nodue">
   </td>
@@ -435,10 +437,9 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Nov 15 -->
   <td id="2021-11-18" class="date"><b>Thu 11/18</b></td>
   <td class="advanced">
-		Serverless computing
+		Cloud computing
   </td>
   <td class="reading">
-		XXX
   </td>
   <td class="nodue">
   </td>
@@ -447,10 +448,10 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Nov 22 -->
   <td id="2021-11-23" class="date"><b>Tue 11/23</b></td>
   <td class="advanced">
-		Data-intensive cluster computing in milliseconds
+		Serverless computing
   </td>
   <td class="reading">
-		MilliSort and MilliQuery paper
+		XXX
   </td>
   <td class="nodue">
   </td>

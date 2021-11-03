@@ -412,10 +412,10 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Nov 8 -->
   <td id="2021-11-11" class="date"><b>Thu 11/11</b></td>
   <td class="advanced">
-		Spark
+		<b>Lec 16:</b> Spark
   </td>
   <td class="reading">
-		Spark paper
+		<a href="./public/papers/spark_nsdi12.pdf">Spark</a> paper (optional)
   </td>
   <td class="hwdue">
 		<a href="./lab2.html">Lab 2c</a> due
@@ -426,10 +426,10 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Nov 15 -->
   <td id="2021-11-16" class="date"><b>Tue 11/16</b></td>
   <td class="advanced">
-		Facebook Memcache
+		<b>Lec 17:</b> Facebook (Meta?) Memcache
   </td>
   <td class="reading">
-		Scaling memcache paper
+		<a href="./public/papers/memcache_nsdi13.pdf">Scaling memcache</a> paper (optional)
   </td>
   <td class="nodue">
   </td>

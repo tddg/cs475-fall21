@@ -365,7 +365,7 @@ The course schedule is tentative and subject to change\*.
 		[<a href="./public/lecs/lec13-dynamo.pptx">slides</a> (pptx)] 
 		[<a href="./public/lecs/lec13-dynamo+notes.pptx">pptx+notes</a>] <br/>
 		Hinted handoff consistency example (Slide#57) [<a href="./public/lecs/hinted_handoff.pdf">notes</a>] <br/>
-		VV ppplication-resolving case (Slide#70) [<a href="./public/lecs/app_resolving_timeline.pdf">notes</a>]
+		VV application-resolving case (Slide#70) [<a href="./public/lecs/app_resolving_timeline.pdf">notes</a>]
   </td>
   <td class="reading">
 		<a href="./public/papers/dynamo_sosp07.pdf">Dynamo</a> paper (required)

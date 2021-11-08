@@ -410,7 +410,8 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Nov 8 -->
   <td id="2021-11-09" class="date"><b>Tue 11/09</b></td>
   <td class="consistency">
-		<b>Lec 15:</b> OCC, MVCC
+		<b>Lec 15:</b> 2PL, OCC 
+		[<a href="./public/lecs/lec15-2pl-occ.pdf">slides</a>]
   </td>
   <td class="reading">
 		

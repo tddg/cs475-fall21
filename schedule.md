@@ -468,7 +468,7 @@ The course schedule is tentative and subject to change\*.
 		<b>Lec 18:</b> Cloud computing and serverless computing
   </td>
   <td class="reading">
-		<a href="./public/papers/cloud_berkeley_view.pdf">A Berkeley view of cloud computing</a> paper (optional) <br/>
+		<a href="./public/papers/cloud_berkeley_view.pdf">A Berkeley view of cloud computing</a> paper (optional), <br/>
 		<a href="./public/papers/serverless_berkeley_view.pdf">A Berkeley view of serverless computing</a> paper (optional) 
   </td>
   <td class="nodue">

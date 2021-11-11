@@ -441,6 +441,18 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Nov 15 -->
   <td id="2021-11-16" class="date"><b>Tue 11/16</b></td>
   <td class="advanced">
+		<b>Lec 16-2:</b> Spark
+		[<a href="./public/lecs/lec16-spark.pdf">slides</a>]
+  </td>
+  <td class="reading">
+		<a href="./public/papers/spark_nsdi12.pdf">Spark</a> paper (optional)
+  </td>
+  <td class="nodue">
+  </td>
+</tr>
+<tr> <!-- week of Nov 15 -->
+  <td id="2021-11-18" class="date"><b>Thu 11/18</b></td>
+  <td class="advanced">
 		<b>Lec 17:</b> Facebook (Meta?) Memcache
   </td>
   <td class="reading">
@@ -449,24 +461,14 @@ The course schedule is tentative and subject to change\*.
   <td class="nodue">
   </td>
 </tr>
-<tr> <!-- week of Nov 15 -->
-  <td id="2021-11-18" class="date"><b>Thu 11/18</b></td>
-  <td class="advanced">
-		Cloud computing
-  </td>
-  <td class="reading">
-  </td>
-  <td class="nodue">
-  </td>
-</tr>
 
 <tr> <!-- week of Nov 22 -->
   <td id="2021-11-23" class="date"><b>Tue 11/23</b></td>
   <td class="advanced">
-		Serverless computing
+		<b>Lec 18:</b> Cloud computing and serverless computing
   </td>
   <td class="reading">
-		XXX
+		
   </td>
   <td class="nodue">
   </td>

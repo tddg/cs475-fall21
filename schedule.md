@@ -415,7 +415,7 @@ The course schedule is tentative and subject to change\*.
 		[<a href="./public/lecs/lec15-2pl-occ+notes.pdf">pdf+notes</a>] 
 		[<a href="./public/lecs/lec15-2pl-occ.pptx">slides</a> (pptx)] 
 		[<a href="./public/lecs/lec15-2pl-occ+notes.pptx">pptx+notes</a>] <br/>
-		OCC validate conditions (Slide#68) [<a href="./public/lecs/occ_validate.pdf">notes</a>]
+		OCC validate conditions (Slide#68/69) [<a href="./public/lecs/occ_validate.pdf">notes</a>]
   </td>
   <td class="reading">
 		

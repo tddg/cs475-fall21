@@ -411,7 +411,7 @@ The course schedule is tentative and subject to change\*.
   <td id="2021-11-09" class="date"><b>Tue 11/09</b></td>
   <td class="consistency">
 		<b>Lec 15:</b> 2PL, OCC 
-		[<a href="./public/lecs/lec15-2pl-occ.pdf">slides</a>]
+		[<a href="./public/lecs/lec15-2pl-occ.pdf">slides</a> (pdf)]
 		[<a href="./public/lecs/lec15-2pl-occ+notes.pdf">pdf+notes</a>] 
 		[<a href="./public/lecs/lec15-2pl-occ.pptx">slides</a> (pptx)] 
 		[<a href="./public/lecs/lec15-2pl-occ+notes.pptx">pptx+notes</a>] <br/>

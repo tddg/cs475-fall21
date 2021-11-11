@@ -381,8 +381,7 @@ The course schedule is tentative and subject to change\*.
 		[<a href="./public/lecs/lec14-cc.pdf">slides</a> (pdf)]
 		[<a href="./public/lecs/lec14-cc+notes.pdf">pdf+notes</a>] 
 		[<a href="./public/lecs/lec14-cc.pptx">slides</a> (pptx)] 
-		[<a href="./public/lecs/lec14-cc+notes.pptx">pptx+notes</a>] <br/>
-		Phantom problem (Slide#43) [<a href="./public/lecs/phantom_row.pdf">notes</a>]
+		[<a href="./public/lecs/lec14-cc+notes.pptx">pptx+notes</a>] 
   </td>
   <td class="reading">
 		<a href="./public/papers/franklin97.pdf">Franklin</a> paper: &sect;1-3.1 (required)
@@ -398,6 +397,7 @@ The course schedule is tentative and subject to change\*.
 		[<a href="./public/lecs/lec14-cc+notes.pdf">pdf+notes</a>] 
 		[<a href="./public/lecs/lec14-cc.pptx">slides</a> (pptx)] 
 		[<a href="./public/lecs/lec14-cc+notes.pptx">pptx+notes</a>] <br/>
+		Phantom problem (Slide#43) [<a href="./public/lecs/phantom_row.pdf">notes</a>]
   </td>
   <td class="reading">
 		<a href="./public/papers/franklin97.pdf">Franklin</a> paper: &sect;1-3.1 (required)

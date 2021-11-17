@@ -467,7 +467,7 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Nov 22 -->
   <td id="2021-11-23" class="date"><b>Tue 11/23</b></td>
   <td class="advanced">
-		<b>Lec 18:</b> Cloud computing and serverless computing 
+		<b>Lec 18:</b> Cloud and serverless computing 
 		[<a href="./public/lecs/lec18-serverless-computing.pdf">slides</a>]
   </td>
   <td class="reading">

@@ -454,7 +454,7 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Nov 15 -->
   <td id="2021-11-18" class="date"><b>Thu 11/18</b></td>
   <td class="advanced">
-		<b>Lec 17:</b> Facebook (Meta?) Memcache 
+		<b>Lec 17:</b> Facebook (Meta?) memcache 
 		[<a href="./public/lecs/lec17-memcache.pdf">slides</a>]
   </td>
   <td class="reading">

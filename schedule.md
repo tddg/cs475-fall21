@@ -443,7 +443,6 @@ The course schedule is tentative and subject to change\*.
   <td class="advanced">
 		<b>Lec 16-2:</b> Spark
 		[<a href="./public/lecs/lec16-spark.pdf">slides</a>] <br/>
-		<a href="https://forms.gle/NYVkqmtiYLLwFCTE9">PQ</a>
   </td>
   <td class="reading">
 		<a href="./public/papers/spark_nsdi12.pdf">Spark</a> paper (optional)

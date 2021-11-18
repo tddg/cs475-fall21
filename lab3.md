@@ -13,7 +13,6 @@ permalink: /lab3.html
 ## Resources
 
 * How to read a paper (Raft example) [[slides](https://tddg.github.io/cs475-fall21/public/lecs/how_to_read_a_paper.pdf)] [[video](https://edstem.org/us/courses/8902/discussion/674977)]
-* Code walk-thru [[video](https://edstem.org/us/courses/8902/discussion/674977)]
 * Students' guide to Raft [[link](https://thesquareplanet.com/blog/students-guide-to-raft/)]
 
 

@@ -434,7 +434,7 @@ The course schedule is tentative and subject to change\*.
   </td>
   <td class="hwdue">
 		<a href="./lab2.html">Lab 2c</a> due
-		<p style="color:black">Lab 3 out</p>
+		<p style="color:black"><a href="./lab3.html">Lab 3</a> out</p>
   </td>
 </tr>
 

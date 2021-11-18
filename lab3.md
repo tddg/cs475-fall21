@@ -22,7 +22,7 @@ permalink: /lab3.html
 
 In this lab you will build a fault-tolerant key/value storage
 service using your Raft library from [lab
-2](https://tddg.github.io/cs475-fall21/lab3.html). You key/value
+2](https://tddg.github.io/cs475-fall21/lab2.html). You key/value
 service will be a replicated state machine, consisting of several
 key/value servers that use Raft to maintain replication. Your
 key/value service should continue to process client requests as long

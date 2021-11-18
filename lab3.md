@@ -263,7 +263,8 @@ ok  	/kvraft	256.436s
 
 ## Point distribution
 
-There are a total of 15 tests for Lab 3. Each individual test takes 5 points. 
+There are a total of 15 tests for Lab 3.  
+
 **However, you will only need to pass the first 9 tests in order to get 
 the full marks, which is 9 x 5 = 45 points (10% of the overall grade).** 
 

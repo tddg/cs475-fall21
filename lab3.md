@@ -98,7 +98,7 @@ Copy these three directories into `src/` under your CS475 lab directory:
 % cp -r kvraft $HOME/cs475-fall21/labs/src/
 % cd $HOME/cs475-fall21/labs/src
 % ls
-labgob/  labrpc/  raft/ kvraft/
+labgob/  labrpc/  kvraft/ raft/ 
 ```
 
 
@@ -227,45 +227,48 @@ Your code should now pass the Lab 3A tests, like this:
 ```sh
 % go test -run 3A
 Test: one client (3A) ...
-  ... Passed --  15.1  5 12882 2587
+  ... Passed --  15.5  5  4653  126
 Test: many clients (3A) ...
-  ... Passed --  15.3  5  9678 3666
+  ... Passed --  16.9  5 14409  631
 Test: unreliable net, many clients (3A) ...
-  ... Passed --  17.1  5  4306 1002
+  ... Passed --  20.2  5  1872  391
 Test: concurrent append to same key, unreliable (3A) ...
-  ... Passed --   0.8  3   128   52
+  ... Passed --   3.9  3   188   52
 Test: progress in majority (3A) ...
-  ... Passed --   0.9  5    58    2
+  ... Passed --   0.6  5    53    2
 Test: no progress in minority (3A) ...
-  ... Passed --   1.0  5    54    3
+  ... Passed --   1.3  5   120    3
 Test: completion after heal (3A) ...
-  ... Passed --   1.0  5    59    3
+  ... Passed --   1.1  5    53    3
 Test: partitions, one client (3A) ...
-  ... Passed --  22.6  5 10576 2548
+  ... Passed --  22.5  5  7795  112
 Test: partitions, many clients (3A) ...
-  ... Passed --  22.4  5  8404 3291
+  ... Passed --  24.1  5 32868  554
 Test: restarts, one client (3A) ...
-  ... Passed --  19.7  5 13978 2821
+  ... Passed --  19.8  5 16537  126
 Test: restarts, many clients (3A) ...
-  ... Passed --  19.2  5 10498 4027
+  ... Passed --  21.9  5 63309  632
 Test: unreliable net, restarts, many clients (3A) ...
-  ... Passed --  20.5  5  4618  997
+  ... Passed --  25.2  5  2556  392
 Test: restarts, partitions, many clients (3A) ...
-  ... Passed --  26.2  5  9816 3907
+  ... Passed --  28.0  5 33568  487
 Test: unreliable net, restarts, partitions, many clients (3A) ...
-  ... Passed --  29.0  5  3641  708
+  ... Passed --  28.8  5  2783  306
 Test: unreliable net, restarts, partitions, many clients, linearizability checks (3A) ...
-  ... Passed --  26.5  7 10199  997
+  ... Passed --  26.3  7 10383  609
 PASS
-ok      kvraft  237.352s
+ok  	/kvraft	256.436s
 ```
 
 
 ## Point distribution
 
-There are a total of 15 tests for Lab 3. 
-Each individual test takes 5 points. That is, Lab 3 carries 75
-points. 
+There are a total of 15 tests for Lab 3. Each individual test takes 5 points. 
+**However, you will only need to pass the first 9 tests in order to get 
+the full marks, which is 9 x 5 = 45 points (10% of the overall grade).** 
+
+Test 10-15 are for **extra credits**, each worth 2.5 points.  That is,
+Lab 3's bonus part carries 6 x 2.5 = 15 points. 
 
 Your code will be tested on Autolab. No marks will be awarded if your
 code does not pass the test. You will receive full marks only if your

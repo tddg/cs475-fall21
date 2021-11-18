@@ -427,7 +427,10 @@ The course schedule is tentative and subject to change\*.
   <td id="2021-11-11" class="date"><b>Thu 11/11</b></td>
   <td class="advanced">
 		<b>Lec 16:</b> Spark
-		[<a href="./public/lecs/lec16-spark.pdf">slides</a>]
+		[<a href="./public/lecs/lec16-spark.pdf">slides</a> (pdf)]
+		[<a href="./public/lecs/lec16-spark+notes.pdf">pdf+notes</a>] 
+		[<a href="./public/lecs/lec16-spark.pptx">slides</a> (pptx)] 
+		[<a href="./public/lecs/lec16-spark+notes.pptx">pptx+notes</a>]
   </td>
   <td class="reading">
 		<a href="./public/papers/spark_nsdi12.pdf">Spark</a> paper (optional)
@@ -442,7 +445,11 @@ The course schedule is tentative and subject to change\*.
   <td id="2021-11-16" class="date"><b>Tue 11/16</b></td>
   <td class="advanced">
 		<b>Lec 16-2:</b> Spark
-		[<a href="./public/lecs/lec16-spark.pdf">slides</a>] <br/>
+		[<a href="./public/lecs/lec16-spark.pdf">slides</a> (pdf)]
+		[<a href="./public/lecs/lec16-spark+notes.pdf">pdf+notes</a>] 
+		[<a href="./public/lecs/lec16-spark.pptx">slides</a> (pptx)] 
+		[<a href="./public/lecs/lec16-spark+notes.pptx">pptx+notes</a>] <br/>
+		PageRank example (Slide#43-48) [<a href="./public/lecs/pagerank.pdf">notes</a>]
   </td>
   <td class="reading">
 		<a href="./public/papers/spark_nsdi12.pdf">Spark</a> paper (optional)

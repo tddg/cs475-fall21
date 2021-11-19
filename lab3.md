@@ -68,7 +68,7 @@ the Raft library that you've built in Lab 2.
 > lab because there are more components that work asynchronously of
 > each other. Start early. 
 > * **Hint:** You should reread the [extended Raft paper](https://tddg.github.io/cs475-fall21/public/papers/raft.pdf),
-> in particular Sections 7 and 8.
+> in particular Sections 8 (client interaction).
 > * **Hint:** You are allowed to add fields to the Raft `ApplyMsg`, and
 > to add fields to Raft RPCs such as `AppendEntries`. But be sure that
 > your code continues to pass the Lab 2 tests. 

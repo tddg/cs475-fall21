@@ -20,7 +20,7 @@ permalink: /lab3.html
 ## Introduction
 
 In this lab you will build a fault-tolerant key/value storage
-service using your Raft library from [lab
+service using your Raft library from [Lab
 2](https://tddg.github.io/cs475-fall21/lab2.html). You key/value
 service will be a replicated state machine, consisting of several
 key/value servers that use Raft to maintain replication. Your
@@ -57,8 +57,8 @@ single server. It is harder if the service is replicated, since all
 servers must choose the same execution order for concurrent requests,
 and must avoid replying to clients using state that isn't up to date. 
 
-In this lab, you will implement the service without worrying that the
-Raft log can grow without bound.
+In this lab, you will implement a key/value store service directly atop
+the Raft library that you've built in Lab 2.
 
 
 > * **Hint:** This lab doesn't require you to write much code, but you
@@ -67,7 +67,8 @@ Raft log can grow without bound.
 > doesn't work. Debugging will be more challenging than in the Raft
 > lab because there are more components that work asynchronously of
 > each other. Start early. 
-> * **Hint:** You should reread the extended Raft paper, in particular Sections 7 and 8.
+> * **Hint:** You should reread the [extended Raft paper](https://tddg.github.io/cs475-fall21/public/papers/raft.pdf),
+> in particular Sections 7 and 8.
 > * **Hint:** You are allowed to add fields to the Raft `ApplyMsg`, and
 > to add fields to Raft RPCs such as `AppendEntries`. But be sure that
 > your code continues to pass the Lab 2 tests. 

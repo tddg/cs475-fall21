@@ -189,8 +189,7 @@ implementation is.
 > part of a majority (so that it does not serve stale data). A simple
 > solution is to enter every `Get()` (as well as each `Put()` and
 > `Append()`) in the Raft log. You don't have to implement the
-> optimization for read-only operations that is described in Section
-> 8. 
+> optimization for read-only operations that is described in Section 8.
 > * **Hint:** It's best to add locking from the start because the
 > need to avoid deadlocks sometimes affects overall code design.
 > Check that your code is race-free using `go test -race`. 

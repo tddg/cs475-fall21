@@ -169,18 +169,18 @@ implementation is.
 > using `Start()`. It is easy to achieve deadlock between the kvserver
 > and its Raft library. 
 > * **Hint:** Your solution needs to handle the case in which a
-> leader has called Start() for a Clerk's RPC, but loses its
+> leader has called `Start()` for a `Clerk`'s RPC, but loses its
 > leadership before the request is committed to the log. In this case
-> you should arrange for the Clerk to re-send the request to other
+> you should arrange for the `Clerk` to re-send the request to other
 > servers until it finds the new leader. One way to do this is for
 > the server to detect that it has lost leadership, by noticing that
-> a different request has appeared at the index returned by Start(),
+> a different request has appeared at the index returned by `Start()`,
 > or that Raft's term has changed. If the ex-leader is partitioned by
 > itself, it won't know about new leaders; but any client in the same
 > partition won't be able to talk to a new leader either, so it's OK
 > in this case for the server and client to wait indefinitely until
 > the partition heals. 
-> * **Hint:**  You will probably have to modify your Clerk to
+> * **Hint:**  You will probably have to modify your `Clerk` to
 > remember which server turned out to be the leader for the last RPC,
 > and send the next RPC to that server first. This will avoid wasting
 > time searching for the leader on every RPC, which may help you pass

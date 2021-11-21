@@ -8,6 +8,11 @@ permalink: /lab3.html
 
 **Due** Tuesday, 12/07, 11:59pm.
 
+## Changes
+
+* Please re-download the `lab3.tar` ball if your previous download missed the `linearizability/` library. 
+
+
 
 
 ## Resources
@@ -89,18 +94,19 @@ To download the tar file from Zeus:
 % wget https://tddg.github.io/cs475-fall21/public/lab3.tar
 % tar -xvf lab3.tar
 % ls
-kvraft/
+kvraft          lab3.tar        linearizability
 ```
 
-Copy these three directories into `src/` under your CS475 lab directory:
+Copy these two directories `kvraft/` and `linearizability/` into `src/` under your CS475 lab directory:
 
 ```sh
-% cp -r kvraft $HOME/cs475-fall21/labs/src/
+% cp -r kvraft linearizability $HOME/cs475-fall21/labs/src/
 % cd $HOME/cs475-fall21/labs/src
 % ls
-labgob/  labrpc/  kvraft/ raft/ 
+kvraft/  labgob/  labrpc/  linearizability/  raft/
 ```
 
+(You should note that the above dir does not list the dirs for Lab 0 and Lab 1, which should be included in your CS475 lab directory assuming you haven't changed to a new directory.)
 
 
 To get up and running, execute the following commands: 

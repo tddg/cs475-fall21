@@ -10,7 +10,8 @@ permalink: /lab3.html
 
 ## Changes
 
-* Please re-download the `lab3.tar` ball if your previous download missed the `linearizability/` library. 
+* Please re-download the [`lab3.tar`](https://tddg.github.io/cs475-fall21/public/lab3.tar) 
+ball if your previous download missed the `linearizability/` library. 
 
 
 

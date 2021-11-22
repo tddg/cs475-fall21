@@ -473,12 +473,11 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Nov 22 -->
   <td id="2021-11-23" class="date"><b>Tue 11/23</b></td>
   <td class="advanced">
-		<b>Lec 18:</b> Cloud and serverless computing 
-		[<a href="./public/lecs/lec18-serverless-computing.pdf">slides</a>]
+		<b>Lec 17-2:</b> Facebook (Meta?) memcache 
+		[<a href="./public/lecs/lec17-memcache.pdf">slides</a>]
   </td>
   <td class="reading">
-		<a href="./public/papers/cloud_berkeley_view.pdf">A Berkeley view of cloud computing</a> paper (optional), <br/>
-		<a href="./public/papers/serverless_berkeley_view.pdf">A Berkeley view of serverless computing</a> paper (optional) 
+		<a href="./public/papers/memcache_nsdi13.pdf">Scaling memcache</a> paper (optional)
   </td>
   <td class="nodue">
   </td>
@@ -497,9 +496,13 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Nov 29 -->
   <td id="2021-11-30" class="date"><b>Tue 11/30</b></td>
   <td class="advanced">
-		Reasoning about system performance
+		<!--Reasoning about system performance-->
+		<b>Lec 18:</b> Cloud and serverless computing 
+		[<a href="./public/lecs/lec18-serverless-computing.pdf">slides</a>]
   </td>
   <td class="reading">
+		<a href="./public/papers/cloud_berkeley_view.pdf">A Berkeley view of cloud computing</a> paper (optional), <br/>
+		<a href="./public/papers/serverless_berkeley_view.pdf">A Berkeley view of serverless computing</a> paper (optional) 
   </td>
   <td class="hwdue">
 		Lab 3 due

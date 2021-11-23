@@ -460,8 +460,9 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Nov 15 -->
   <td id="2021-11-18" class="date"><b>Thu 11/18</b></td>
   <td class="advanced">
-		<b>Lec 17:</b> Facebook (Meta?) memcache 
+		<b>Lec 17:</b> Facebook (Meta) memcache 
 		[<a href="./public/lecs/lec17-memcache.pdf">slides</a>]
+		[<a href="./public/lecs/lec17-memcache+notes.pdf">slides+notes</a>] 
   </td>
   <td class="reading">
 		<a href="./public/papers/memcache_nsdi13.pdf">Scaling memcache</a> paper (optional)
@@ -473,8 +474,9 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Nov 22 -->
   <td id="2021-11-23" class="date"><b>Tue 11/23</b></td>
   <td class="advanced">
-		<b>Lec 17-2:</b> Facebook (Meta?) memcache 
+		<b>Lec 17-2:</b> Facebook (Meta) memcache 
 		[<a href="./public/lecs/lec17-memcache.pdf">slides</a>]
+		[<a href="./public/lecs/lec17-memcache+notes.pdf">slides+notes</a>] 
   </td>
   <td class="reading">
 		<a href="./public/papers/memcache_nsdi13.pdf">Scaling memcache</a> paper (optional)

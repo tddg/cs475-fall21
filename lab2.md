@@ -6,11 +6,13 @@ permalink: /lab2.html
 
 ## Important Dates and Other Stuff
 
-**Part 2A Due** Thursday, 10/21, 11:59pm.
+~~**Part 2A Due** Thursday, 10/21, 11:59pm.~~
 
-**Part 2B Due** Thursday, 11/04, 11:59pm.
+~~**Part 2B Due** Thursday, 11/04, 11:59pm.~~
 
-**Part 2C Due** Thursday, 11/11, 11:59pm.
+~~**Part 2C Due** Thursday, 11/11, 11:59pm.~~
+
+**Part 2A/2B/2C Due** Tuesday, 12/07, 11:59pm.
 
 
 ## Resources

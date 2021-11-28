@@ -503,7 +503,7 @@ The course schedule is tentative and subject to change\*.
   <td class="reading">
   </td>
   <td class="hwdue">
-		~~Lab 3 due~~
+		<strike>Lab 3 due</strike>
   </td>
 </tr>
 <tr> <!-- week of Nov 29 -->

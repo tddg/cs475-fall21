@@ -11,7 +11,7 @@ permalink: /lab3.html
 ## Changes
 
 * Please re-download the [`lab3.tar`](https://tddg.github.io/cs475-fall21/public/lab3.tar) 
-ball if your previous download missed the `linearizability/` library. 
+file if your previous download missed the `linearizability/` library. 
 
 * Updated the submission instruction: there are four source files to
 submit instead of three; please check.

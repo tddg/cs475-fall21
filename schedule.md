@@ -498,13 +498,9 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Nov 29 -->
   <td id="2021-11-30" class="date"><b>Tue 11/30</b></td>
   <td class="advanced">
-		<!--Reasoning about system performance-->
-		<b>Lec 18:</b> Cloud and serverless computing 
-		[<a href="./public/lecs/lec18-serverless-computing.pdf">slides</a>]
+		Final review
   </td>
   <td class="reading">
-		<a href="./public/papers/cloud_berkeley_view.pdf">A Berkeley view of cloud computing</a> paper (optional), <br/>
-		<a href="./public/papers/serverless_berkeley_view.pdf">A Berkeley view of serverless computing</a> paper (optional) 
   </td>
   <td class="hwdue">
 		Lab 3 due
@@ -513,9 +509,13 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Nov 29 -->
   <td id="2021-12-02" class="date"><b>Thu 12/02</b></td>
   <td class="lecture">
-		Final review
+		<!--Reasoning about system performance-->
+		<b>Lec 18:</b> Cloud and serverless computing 
+		[<a href="./public/lecs/lec18-serverless-computing.pdf">slides</a>]
   </td>
   <td class="reading">
+		<a href="./public/papers/cloud_berkeley_view.pdf">A Berkeley view of cloud computing</a> paper (optional), <br/>
+		<a href="./public/papers/serverless_berkeley_view.pdf">A Berkeley view of serverless computing</a> paper (optional) 
   </td>
   <td class="nodue">
   </td>
@@ -528,7 +528,8 @@ The course schedule is tentative and subject to change\*.
   </td>
   <td class="reading">
   </td>
-  <td class="nodue">
+  <td class="hwdue">
+		Raft lab series due
   </td>
 </tr>
 <tr> <!-- week of Dec 06 -->

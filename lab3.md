@@ -13,6 +13,8 @@ permalink: /lab3.html
 * Please re-download the [`lab3.tar`](https://tddg.github.io/cs475-fall21/public/lab3.tar) 
 ball if your previous download missed the `linearizability/` library. 
 
+* Updated the submission instruction: there are four source files to
+submit instead of three; please check.
 
 
 
@@ -291,15 +293,15 @@ for instructions on how to sign-up for Autolab. If you did not
 receive a confirmation email from Autolab to set a password, enter
 your @gmu.edu (**NOT** masonlive) email, and click "Forgot your
 password" to get a new password. You may skip the Autolab signup 
-step if you have done this in lab0.
+step if you have done this in Lab 0.
 
 Create a **tar** file of the following Go source files:
-`client.go`, `server.go`, and `common.go`.
+`client.go`, `server.go`, `common.go`, and `raft.go`.
 Please, .tar only, not .tgz, nor .7z/.zip.  Name your tar file as
 `lab3-handin.tar`. 
 
 ```sh
-% tar -cvf lab3-handin.tar client.go server.go common.go
+% tar -cvf lab3-handin.tar client.go server.go common.go raft.go
 ```
 
 **Please do not put any directory in your tar file
@@ -310,6 +312,7 @@ of your tar file:
 ```sh
 % tar -tvf lab3-handin.tar
 -rw-r--r--  0 yue    staff    2911 Sep 30 16:38 client.go
+-rw-r--r--  0 yue    staff    2911 Sep 30 16:38 raft.go
 -rw-r--r--  0 yue    staff    2911 Sep 30 16:38 server.go
 -rw-r--r--  0 yue    staff    2911 Sep 30 16:38 common.go
 ```

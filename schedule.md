@@ -498,7 +498,8 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Nov 29 -->
   <td id="2021-11-30" class="date"><b>Tue 11/30</b></td>
   <td class="advanced">
-		Final review [<a href="./public/lecs/final-review.pdf">slides</a>]
+		Final review [<a href="./public/lecs/final-review.pdf">slides</a>] <br/>
+		Online course evaluation
   </td>
   <td class="reading">
   </td>

@@ -514,6 +514,7 @@ The course schedule is tentative and subject to change\*.
 		<!--Reasoning about system performance-->
 		<b>Lec 18:</b> Cloud and serverless computing 
 		[<a href="./public/lecs/lec18-serverless-computing.pdf">slides</a>]
+		[<a href="./public/lecs/lec18-serverless-computing+notes.pdf">slides+notes</a>]
   </td>
   <td class="reading">
 		<a href="./public/papers/cloud_berkeley_view.pdf">A Berkeley view of cloud computing</a> paper (optional), <br/>

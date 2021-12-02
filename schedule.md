@@ -497,7 +497,7 @@ The course schedule is tentative and subject to change\*.
 
 <tr> <!-- week of Nov 29 -->
   <td id="2021-11-30" class="date"><b>Tue 11/30</b></td>
-  <td class="advanced">
+  <td class="lecture">
 		Final review [<a href="./public/lecs/final-review.pdf">slides</a>] 
 		[<a href="./public/lecs/final-review+notes.pdf">slides+notes</a>]  <br/>
 		Online course evaluation
@@ -510,7 +510,7 @@ The course schedule is tentative and subject to change\*.
 </tr>
 <tr> <!-- week of Nov 29 -->
   <td id="2021-12-02" class="date"><b>Thu 12/02</b></td>
-  <td class="lecture">
+  <td class="advanced">
 		<!--Reasoning about system performance-->
 		<b>Lec 18:</b> Cloud and serverless computing 
 		[<a href="./public/lecs/lec18-serverless-computing.pdf">slides</a>]

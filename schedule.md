@@ -538,7 +538,7 @@ The course schedule is tentative and subject to change\*.
 <tr> <!-- week of Dec 06 -->
   <td id="2021-12-09" class="date"><b>Thu 12/09</b></td>
   <td class="exam">
-		Final exam
+		Final exam (<b>7:30 am - 10:00 am</b>)
   </td>
   <td class="reading">
   </td>
